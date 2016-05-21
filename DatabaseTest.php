@@ -23,7 +23,7 @@
         	<a href="VocabTest.html" title="Test your vocab!">Vocab Test</a>
         </li>
         <li>
-        	<a href="DatabaseTest.html" title="Test your database!">Database Test</a>
+        	<a href="DatabaseTest.php" title="Test your database!">Database Test</a>
         </li>
     </ul>
 </nav>
