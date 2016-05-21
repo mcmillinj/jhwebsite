@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>James & Helen's Awesome New Site</title>
+ <link rel="stylesheet" href="index.css" type="text/css" media="screen">
+</head>
+<body>
+
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="index.html" title="Home">Home</a>
+        </li>
+        <li>
+            <a href="Journalling&Musings.html" title="Read about our coding adventures!">Journal</a>
+            <ul>
+                <li><a href="Beginnings.html">Beginnings</a></li>
+                <li><a href="February.html">February</a></li>
+                <li><a href="March.html">March</a></li>
+            </ul>
+        </li>
+        <li>
+        	<a href="VocabTest.html" title="Test your vocab!">Vocab Test</a>
+        </li>
+        <li>
+        	<a href="DatabaseTest.php" title="Test your database!">Database Test</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>March</h1>
+<div class="main-content">
+<p class="James">As you can see, we've renovated slightly.</p>
+<p class="Helen">Ta-da! February is looking a little basic now, right?</p>
+<p class="James">It's not all about the face though, we've put together a test that allows
+user input. Go on and give it a whirl...</p>
+<p> <span id="question"></span><span hidden id="equals">=</span><span hidden id="answer"></span></p> 
+<input id="guess" value="" type=text autofocus="true" onkeypress="enter(event)"><br>
+<p hidden id="feedback"></p>
+<button hidden type="button" id="play-again">Try your luck again?</button>
+<p>How many in a row?: <span id="score">0</span></p>
+<p>Ultimate Score of Greatness: <span id="highScore">0</span></p>
+<br>
+<p class="Helen">Now we're cooking with gas!<br>I have to say, I'm really digging this new
+project babe. It's like we're doing something actually useful. Sure it's not on the level of, say, 
+building a house, but maybe like a dog's den?</p>
+<p class="James">Hell-to-the-yeah! We're gonna be famous ballers in no time.</p>
+<p class="Helen">Well that's certainly an attitude you have going. I'm just afraid the pressure
+of being absolute famous ballers will tear us apart, Garfunkel style. </p>
+<p class="James">Nah. Ain't no big thang, gurl! Been doin' it 6 years already, yo. And countin'!</p>
+<p class="Helen">Who let Ali G in here?<br>But what I'm taking from you is that you're the Garfunkel in this 
+situation. And I rely on your poor knowledge of classic music history to keep it that way!</p>
+
+<script> src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js" </script>
+<script>
+
+var dictionaryXml;
+var numberOfObjects;
+var currentScore = 0;
+var highScore = 0;
+
+var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    	if (xhttp.readyState == 4 && xhttp.status == 200) {
+			loadDictionary(xhttp);
+		}
+	};
+	xhttp.open("GET", "KoreanDictionary.xml", false);
+	xhttp.send();
+	var randObject = Math.floor((Math.random() * (numberOfObjects)));
+	document.getElementById("question").innerHTML = dictionaryXml.getElementsByTagName("korean")[randObject].childNodes[0].nodeValue;
+	document.getElementById("answer").innerHTML = dictionaryXml.getElementsByTagName("english")[randObject].childNodes[0].nodeValue;
+	
+	function loadDictionary(xml) {
+    	dictionaryXml = xml.responseXML;
+    	numberOfObjects = dictionaryXml.getElementsByTagName("korean").length;
+	};
+
+var getQuestion = function () {
+		//document.getElementById("feedback").setAttribute("hidden", true);
+		document.getElementById("guess").value="";
+		document.getElementById("equals").setAttribute("hidden", true);
+		document.getElementById("answer").setAttribute("hidden", true);
+		var randObject = Math.floor((Math.random() * (numberOfObjects)));
+		document.getElementById("question").innerHTML = dictionaryXml.getElementsByTagName("korean")[randObject].childNodes[0].nodeValue;
+		document.getElementById("answer").innerHTML = dictionaryXml.getElementsByTagName("english")[randObject].childNodes[0].nodeValue;
+		document.getElementById("guess").focus();
+};	
+
+
+var checkAnswer = function () {
+	var guess = document.getElementById("guess");
+	var answer = document.getElementById("answer");
+	if (guess.value.toLowerCase()==answer.innerHTML.toLowerCase()) {
+		document.getElementById("feedback").innerHTML = "Badass!";
+		document.getElementById("feedback").removeAttribute("hidden");
+		currentScore++;
+		document.getElementById("score").innerHTML = currentScore;
+		getQuestion();
+	} 
+	else {
+		document.getElementById("feedback").innerHTML = "Wah wah...";
+		document.getElementById("feedback").removeAttribute("hidden");
+		document.getElementById("equals").removeAttribute("hidden");
+		document.getElementById("answer").removeAttribute("hidden");
+		if (currentScore>highScore) {
+		highScore = currentScore;
+		document.getElementById("highScore").innerHTML = highScore;
+		};
+		document.getElementById("play-again").removeAttribute("hidden");
+		document.getElementById("play-again").focus();
+	};
+	
+	
+};
+
+var playAgain = function () {
+	currentScore=0;
+	document.getElementById("score").innerHTML = currentScore;
+	document.getElementById("play-again").setAttribute("hidden", true);
+	document.getElementById("feedback").innerHTML = "";
+	getQuestion();
+}
+
+var showAnswer = function () {
+	document.getElementById("answer").removeAttribute("hidden");
+	currentScore = 0;
+	document.getElementById("score").innerHTML = currentScore;
+};
+
+var button = document.querySelector("#play-again");
+button.addEventListener('click', playAgain);
+
+function enter(event) {
+	if(event.keyCode == 13) {
+      checkAnswer(event);
+    }
+      return false;
+}
+
+</script>
+</body>
+</html>

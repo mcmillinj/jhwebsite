@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>James & Helen's Awesome New Site</title>
+ <link rel="stylesheet" href="index.css" type="text/css" media="screen">
+</head>
+<body>
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="index.html" title="Home">Home</a>
+        </li>
+        <li>
+            <a href="Journalling&Musings.html" title="Read about our coding adventures!">Journal</a>
+            <ul>
+                <li><a href="Beginnings.html">Beginnings</a></li>
+                <li><a href="February.html">February</a></li>
+                <li><a href="March.html">March</a></li>
+            </ul>
+        </li>
+        <li>
+        	<a href="VocabTest.html" title="Test your vocab!">Vocab Test</a>
+        </li>
+        <li>
+        	<a href="DatabaseTest.php" title="Test your database!">Database Test</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>February</h1>
+<p class = 'James'>This is our first crack at building a webpage. Here goes...</p>
+ <h2>Saturday 20<sup>th</sup></h2>
+<p class = 'James'>Need to figure out what sort of content we want to display here. Maybe film and/or
+food reviews? Recently we saw:</p>
+<ul class = 'James'>
+	<li>Deadpool</li>
+	<li>The Revenant</li>
+</ul>
+<p class = 'Helen'> I think we should do regular updates on how our Korean learning is going.
+In a humorous fashion.</p>
+<p class = 'James'>Isn't it <em>humourous</em>?</p>
+<p class = 'Helen'> You may be an <em>English</em> person but my 
+superior <a href="http://www.oxforddictionaries.com/definition/english/humorous" title="Humorous">
+spelling skillz</a> strike once more!
+</p>
+<p class = 'James'>Fine... How about creating a tool to help us test our K-Skillz? We'll need to feed in the vocab via an XML file,
+then it can randomly generate questions and give us scores :)</p>
+<p class = 'Helen'>Great idea, namja chingu! Maybe then you could beat me in a spelling test?? </br> 
+And I want a pop-up box that tells us how great we are when we get it right. Because everybody 
+loves being told how great they are.</p>
+<p class = 'James'><em>Especially</em> me. Heh heh heh.</p>
+<p class = 'Helen'> Very true. So let's get this Kparty Kstarted!</p>
+<button type="button" id="get-question">Switch it up!</button>
+<p id="question"></p>
+<button type="button" id="show-answer">Show Bery Good Korean!</button>
+<p hidden id="answer"></p>
+<p class = 'Helen'>Ah! How exciting James! We built our very first thing</p>
+<p class = 'James'>Yeahhhhh well done us</p>
+<p class = 'Helen'>Well, this has just made me hungry to do more now. I been bit bit by the
+coding bug babe!</p>
+<p class = 'James'>Good, because there's still plenty more to do! Now we need to add a form that lets the user
+guess an answer. Tune in for March :)</p><script>
+
+var dictionaryXml;
+var numberOfObjects;
+
+var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+    	if (xhttp.readyState == 4 && xhttp.status == 200) {
+			loadDictionary(xhttp);
+		}
+	};
+	xhttp.open("GET", "KoreanDictionary.xml", true);
+	xhttp.send();
+	
+	function loadDictionary(xml) {
+		//alert('loadDictionary initialised');
+    	dictionaryXml = xml.responseXML;
+    	numberOfObjects = dictionaryXml.getElementsByTagName("english").length;
+    	//alert(numberOfObjects);
+	};
+
+var getQuestion = function (event) {
+		document.getElementById("answer").setAttribute("hidden", true);
+		var randObject = Math.floor((Math.random() * (numberOfObjects)));
+		//alert(randObject);
+		document.getElementById("question").innerHTML = dictionaryXml.getElementsByTagName("english")[randObject].childNodes[0].nodeValue;
+		document.getElementById("answer").innerHTML = dictionaryXml.getElementsByTagName("korean")[randObject].childNodes[0].nodeValue;
+};	
+
+var button = document.querySelector('#get-question');
+button.addEventListener('click', getQuestion);
+
+var showAnswer = function (event) {
+	document.getElementById("answer").removeAttribute("hidden");
+};
+var button = document.querySelector('#show-answer');
+button.addEventListener('click', showAnswer);
+
+</script>
+</body>
+</html>

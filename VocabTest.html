@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>James & Helen's Awesome New Site</title>
+ <link rel="stylesheet" href="index.css" type="text/css" media="screen">
+</head>
+<body class="center">
+
+<nav class="nav">
+    <ul>
+        <li>
+            <a href="index.html" title="Home">Home</a>
+        </li>
+        <li>
+            <a href="Journalling&Musings.html" title="Read about our coding adventures!">Journal</a>
+            <ul>
+                <li><a href="Beginnings.html">Beginnings</a></li>
+                <li><a href="February.html">February</a></li>
+                <li><a href="March.html">March</a></li>
+            </ul>
+        </li>
+        <li>
+        	<a href="VocabTest.html" title="Test your vocab!">Vocab Test</a>
+        </li>
+        <li>
+        	<a href="DatabaseTest.php" title="Test your database!">Database Test</a>
+        </li>
+    </ul>
+</nav>
+
+<h1>Vocab Test</h1>
+
+<br>
+<p class = 'James'>Time to put those Korean skills to the test! Translate the Korean word below...</p>
+ 
+<p><span id="question"></span><span hidden id="equals"> = </span><span hidden id="answer"></span></p>
+ 
+<p><input id="guess" value="" type=text autofocus="true" onkeypress="handle(event)"></p>
+
+<p id="result"></p>
+
+<p class="James">Score: <span id="score">0</span></p>
+
+<p class="James">HiScore: <span id="hiscore">0</span></p>
+
+<button hidden type="button" id="play-again">Play Again</button>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+
+var dictionaryXml;
+var numberOfObjects;
+var currentScore = 0;
+var hiScore = 0;
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+		loadDictionary(xhttp);
+	}
+};
+xhttp.open("GET", "KoreanDictionary.xml", false);
+xhttp.send();
+var randObject = Math.floor((Math.random() * (numberOfObjects)));
+document.getElementById("question").innerHTML = dictionaryXml.getElementsByTagName("korean")[randObject].childNodes[0].nodeValue;
+document.getElementById("answer").innerHTML = dictionaryXml.getElementsByTagName("english")[randObject].childNodes[0].nodeValue;
+
+function loadDictionary(xml) {
+    dictionaryXml = xml.responseXML;
+    numberOfObjects = dictionaryXml.getElementsByTagName("english").length;
+};
+
+var getQuestion = function () {
+	document.getElementById("equals").setAttribute("hidden", true);
+	document.getElementById("answer").setAttribute("hidden", true);
+	//document.getElementById("result").setAttribute("hidden", true);
+	document.getElementById("guess").value="";
+	var randObject = Math.floor((Math.random() * (numberOfObjects)));
+	document.getElementById("question").innerHTML = dictionaryXml.getElementsByTagName("korean")[randObject].childNodes[0].nodeValue;
+	document.getElementById("answer").innerHTML = dictionaryXml.getElementsByTagName("english")[randObject].childNodes[0].nodeValue;
+	document.getElementById("guess").focus();		
+};
+
+var checkAnswer = function () {
+	
+	var guess = document.getElementById("guess");
+	var answer = document.getElementById("answer");
+	
+	if (guess.value.toLowerCase() == answer.innerHTML.toLowerCase()) {
+		document.getElementById("result").innerHTML = "Correct!";
+		$("#result").animate({fontSize: "2em", opacity: 1},300).animate({opacity: 0},500).animate({fontSize: "1em"},200);
+		currentScore++;
+		document.getElementById("score").innerHTML = currentScore;
+		getQuestion();
+	}
+	
+	else {
+		$("#equals").fadeIn(1000);
+		$("#answer").fadeIn(1000);
+		$("#play-again").fadeIn(1000);
+		document.getElementById("result").innerHTML = "Oh no! Your reign of awesomeness has ended :(";
+		$("#result").fadeIn(1000);
+		//document.getElementById("play-again").removeAttribute("hidden");
+		document.getElementById("play-again").focus();
+		if (currentScore > hiScore) {
+			hiScore = currentScore;
+			document.getElementById("hiscore").innerHTML = hiScore;
+		}
+	};
+	
+};
+
+var showAnswer = function () {
+	document.getElementById("answer").removeAttribute("hidden");
+	currentScore = 0;
+	document.getElementById("score").innerHTML = currentScore;
+};
+
+function handle(event){
+    if(event.keyCode === 13){
+        checkAnswer();
+    }
+    return false;
+}
+
+var playAgain = function () {
+	currentScore = 0;
+	document.getElementById("score").innerHTML = currentScore;
+	$("#play-again").hide();
+	$("#answer").hide();
+	$("#equals").hide();
+	document.getElementById("result").innerHTML = "";
+	getQuestion();
+}
+
+var button = document.querySelector('#play-again');
+button.addEventListener('click', playAgain);
+
+</script>
+</body>
+</html>

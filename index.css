@@ -1,0 +1,274 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    background-color: #624;
+}
+
+body.center {
+	text-align: center;
+}
+
+
+h1 {
+    margin: 40px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-style: double;
+    border-width: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#question,
+#equals,
+#answer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 5px;
+	margin-right: 5px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30pt;
+}
+
+#result {
+	opacity: 0;
+}
+
+.Helen {
+	font-family: "Courier New";
+	font-weight: 600;
+}
+
+.James {
+	font-family: courier;
+}
+
+ul.navbar {
+	background-color: #088;
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 75px;
+}
+
+ul.navbar li {
+	float: left;
+}
+
+ul.navbar li a, .dropbtn {
+	color: #fff;
+	text-align: center;
+    padding: 14px 16px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    background-color: #088;
+    color: #fff;
+    border: 2px solid #000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ul.navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: #055;
+}
+
+ul.navbar li a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+ul.navbar li a span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+ul.navbar li a:hover span {
+  padding-right: 25px;
+}
+
+ul.navbar li a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+button {
+    background-color: #088;
+    border: 2px solid #000;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    /*-webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;*/
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+	/*background-color: #055;*/
+}
+
+button:focus {
+	outline: 0;
+}
+
+input {
+	color: #624;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 30pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* This is the basic navbar styling */
+.nav ul {
+    *zoom:1;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background:#333;
+}
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+.nav ul:after {
+    clear:both;
+}
+.nav ul > li {
+    float:left;
+    position:relative; /*This means that the dropdowns are positioned relative to the correct button.*/
+}
+.nav a {
+    display:block;
+    padding:10px 20px;
+    line-height:1.2em;
+    color:#fff;
+    border-left:1px solid #595959;
+}
+.nav a:hover {
+    text-decoration:none;
+    background:#595959;
+}
+.nav li ul {
+    background:#273754;
+}
+.nav li ul li {
+    width:200px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+}
+
+/* This is the styling for the not-animated dropdown */
+/*.nav li ul {
+    position:absolute;
+    left:-9999em;
+    top:36px;
+    z-index:1;
+}
+.nav ul > li:hover ul {
+    left:0;
+}*/
+
+/* This is the styling for the fade-in fade-out dropdown */
+/*
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    visibility:hidden; /* Disables functionality of element */
+/*    opacity:0; /* Can be transitioned, but doesn't affect element existence or functionality */
+ /*   filter:alpha(opacity=0);
+    -webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+}
+.nav ul > li:hover ul {
+    visibility:visible;
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+*/
+/* This is the styling for the slide-down dropdown */
+/*
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+}
+.nav li ul li {
+    overflow:hidden;
+    height:0;
+    -webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+}
+.nav ul > li:hover ul li {
+    height:36px;
+}*/
+
+/* This si the styling for the fold-out dropdown. Only works in Chrome or Safari! */
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+.post-listing a {
+	text-decoration: none;
+	color: #008b8b;
+}
+
+.read-more a {
+	text-decoration: none;
+	color: #00cbcb;
+}
