@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 
-        echo "You are eating ". $row["meal_name"]. "!" ."<br>";
+        echo ". You are eating ". $row["meal_name"]. "!" ."<br>";
 
     	$ingredientsql = "SELECT i.ingredient_name 
     	FROM ingredient i 
