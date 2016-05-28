@@ -54,7 +54,7 @@ if ($result->num_rows > 0) {
 
         echo ". You are eating ". $row["meal_name"]. "!" ."<br>";
 
-    	$ingredientsql = "SELECT i.ingredient_name, i.price
+    	$ingredientsql = "SELECT i.ingredient_name, FORMAT(i.price/100, 2) price
     	FROM ingredient i 
     	JOIN meal_ingredient_bridge b 
     	ON i.ingredient_key = b.ingredient_key 
@@ -64,11 +64,11 @@ if ($result->num_rows > 0) {
 		
 		echo "You will need the following: <br>";
 		while($ingredientrow = $ingredientresult->fetch_assoc()) {
-			echo $ingredientrow["ingredient_name"]." (".$ingredientrow["price"]."p)"."<br>";
+			echo $ingredientrow["ingredient_name"]." (£".$ingredientrow["price"].")"."<br>";
 		}
 		echo "<br>";
 		
-		$ingredienttotalsql = "SELECT SUM(i.price)
+		$ingredienttotalsql = "SELECT FORMAT(SUM(i.price)/100, 2) price
 		FROM ingredient i
 		JOIN meal_ingredient_bridge b 
     	ON i.ingredient_key = b.ingredient_key 
@@ -76,8 +76,8 @@ if ($result->num_rows > 0) {
     	
     	$ingredienttotalresult = $conn->query($ingredienttotalsql);
     	
-    	$totalprice = $ingredienttotalresult->fetch_assoc()["SUM(i.price)"];
-    	echo "Total price = ".$totalprice."p";
+    	$totalprice = $ingredienttotalresult->fetch_assoc()["price"];
+    	echo "Total price = £".$totalprice;
 
     }
 } else {
