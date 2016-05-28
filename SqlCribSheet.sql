@@ -12,6 +12,18 @@ SHOW DATABASES;
 
 USE DATABASE_NAME;
 
+--How to view a list of tables in the database
+
+SHOW TABLES;
+
+--How to describe the structure of a table
+
+DESC test_table;
+
+--How to delete a table
+
+DROP TABLE test_table;
+
 --How to create a table
 
 CREATE TABLE test_table (column_1 INT, column_2 VARCHAR(255), column_3 INT);
@@ -28,10 +40,6 @@ SELECT column_1, column_2 FROM test_table WHERE column_3 = 5;
 
 SELECT * FROM test_table;
 
---How to describe the structure of a table
-
-DESC test_table;
-
 --How to change values in a table - very important to use a WHERE here!
 
 UPDATE test_table SET column_1 = 10 WHERE column_1 = 0;
@@ -44,9 +52,17 @@ ALTER TABLE test_table ADD column_4 INT;
 
 ALTER TABLE test_table DROP COLUMN column_4;
 
---How to delete a table
 
-DROP TABLE test_table;
+--Here's an example of how you can structure a query!
+--SELECT SUM(i.price)
+--FROM   meal m 
+--JOIN   meal_ingredient_bridge mib 
+--ON     m.meal_key = mib.meal_key 
+--JOIN   ingredient i 
+--ON     mib.ingredient_key = i.ingredient_key
+--WHERE  m.meal_name = 'Chilli Con Carne';
+
+
 
 --How to delete rows from a table - very important to use a WHERE here!
 

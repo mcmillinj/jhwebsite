@@ -1,3 +1,11 @@
+/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot
+
+DROP DATABASE cookguide;
+
+CREATE DATABASE cookguide;
+
+USE cookguide;
+
 CREATE TABLE meal (
 	 MEAL_KEY    INT
 	,MEAL_NAME   VARCHAR(255)
@@ -42,12 +50,3 @@ INSERT INTO meal_ingredient_bridge VALUES (1, 6);
 INSERT INTO meal_ingredient_bridge VALUES (1, 7);
 
 COMMIT;
-
-	
-SELECT SUM(i.price)
-FROM   meal m 
-JOIN   meal_ingredient_bridge mib 
-ON     m.meal_key = mib.meal_key 
-JOIN   ingredient i 
-ON     mib.ingredient_key = i.ingredient_key
-WHERE  m.meal_name = 'Chilli Con Carne';
