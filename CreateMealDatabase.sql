@@ -48,5 +48,14 @@ INSERT INTO meal_ingredient_bridge VALUES (1, 4);
 INSERT INTO meal_ingredient_bridge VALUES (1, 5);
 INSERT INTO meal_ingredient_bridge VALUES (1, 6);
 INSERT INTO meal_ingredient_bridge VALUES (1, 7);
+INSERT INTO meal_ingredient_bridge VALUES (2, 1);
+INSERT INTO meal_ingredient_bridge VALUES (2, 2);
+INSERT INTO meal_ingredient_bridge VALUES (2, 3);
+INSERT INTO meal_ingredient_bridge VALUES (2, 4);
+INSERT INTO meal_ingredient_bridge VALUES (2, 5);
+INSERT INTO meal_ingredient_bridge VALUES (2, 8);
+INSERT INTO meal_ingredient_bridge VALUES (2, 9);
+INSERT INTO meal_ingredient_bridge VALUES (2, 10);
+INSERT INTO meal_ingredient_bridge VALUES (2, 11);
 
 COMMIT;
