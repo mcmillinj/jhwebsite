@@ -51,7 +51,21 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
+
         echo "You are eating ". $row["meal_name"]. "!" ."<br>";
+
+    	$ingredientsql = "SELECT i.ingredient_name 
+    	FROM ingredient i 
+    	JOIN meal_ingredient_bridge b 
+    	ON i.ingredient_key = b.ingredient_key 
+    	WHERE b.meal_key = ".$myMealId;
+		
+		$ingredientresult = $conn->query($ingredientsql);
+		
+		echo "You will need the following: <br>";
+		while($ingredientrow = $ingredientresult->fetch_assoc()) {
+			echo $ingredientrow["ingredient_name"]."<br>";
+		}
     }
 } else {
     echo "0 results";
