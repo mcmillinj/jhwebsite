@@ -30,6 +30,7 @@ INSERT INTO meal VALUES (2, 'Spaghetti Bolognese', 3, 3, 4);
 INSERT INTO meal VALUES (3, 'Pasta Verde', 4, 3, 4);
 INSERT INTO meal VALUES (4, 'Spanish Stew', 5, 4, 4);
 INSERT INTO meal VALUES (5, 'Chilli Risotto', 5, 3, 4);
+INSERT INTO meal VALUES (6, 'Salmon, Kale and Mash', 5, 5, 2);
 
 INSERT INTO ingredient VALUES (1, 'Minced Beef 500g', 400);
 INSERT INTO ingredient VALUES (2, 'Onion', 20);
@@ -53,7 +54,11 @@ INSERT INTO ingredient VALUES (19, 'Chorizo Ring 225g', 250);
 INSERT INTO ingredient VALUES (20, 'Butter Beans 400g', 50);
 INSERT INTO ingredient VALUES (21, 'Risotto 350g', 80);
 INSERT INTO ingredient VALUES (22, 'Tomato puree squeeze', 5);
-
+INSERT INTO ingredient VALUES (23, 'Salmon Fillets 270g', 300);
+INSERT INTO ingredient VALUES (24, 'Maris Piper Potatoes 800g', 65);
+INSERT INTO ingredient VALUES (25, 'Butter 25g', 15);
+INSERT INTO ingredient VALUES (26, 'Kale 200g', 100);
+INSERT INTO ingredient VALUES (27, 'Blue Dragon Sauce', 65);
 
 INSERT INTO meal_ingredient_bridge VALUES (1, 1);
 INSERT INTO meal_ingredient_bridge VALUES (1, 2);
@@ -92,5 +97,11 @@ INSERT INTO meal_ingredient_bridge VALUES (5, 5);
 INSERT INTO meal_ingredient_bridge VALUES (5, 13);
 INSERT INTO meal_ingredient_bridge VALUES (5, 21);
 INSERT INTO meal_ingredient_bridge VALUES (5, 22);
+INSERT INTO meal_ingredient_bridge VALUES (6, 3);
+INSERT INTO meal_ingredient_bridge VALUES (6, 23);
+INSERT INTO meal_ingredient_bridge VALUES (6, 24);
+INSERT INTO meal_ingredient_bridge VALUES (6, 25);
+INSERT INTO meal_ingredient_bridge VALUES (6, 26);
+INSERT INTO meal_ingredient_bridge VALUES (6, 27);
 
 COMMIT;
