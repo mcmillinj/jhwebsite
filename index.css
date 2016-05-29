@@ -210,6 +210,10 @@ th, td {
 	padding: 9px;
 }
 
+tfoot td {
+	font-weight: 700;
+}
+
 /* This is the styling for the not-animated dropdown */
 /*.nav li ul {
     position:absolute;
