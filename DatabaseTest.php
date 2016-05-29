@@ -58,7 +58,8 @@ if ($result->num_rows > 0) {
     	FROM ingredient i 
     	JOIN meal_ingredient_bridge b 
     	ON i.ingredient_key = b.ingredient_key 
-    	WHERE b.meal_key = ".$myMealId;
+    	WHERE b.meal_key = ".$myMealId." 
+    	ORDER BY price DESC";
 		
 		$ingredientresult = $conn->query($ingredientsql);
 		
