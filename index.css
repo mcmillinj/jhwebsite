@@ -191,6 +191,25 @@ input {
     background:rgba(0,0,0,0.2);
 }
 
+table {
+	border-collapse: collapse;
+	margin-left: 10px;
+	background-color: white;
+	color: #624;
+}
+
+table, th, td {
+    border: 5px solid #333;
+}
+
+th {
+	text-align: left;
+}
+
+th, td {
+	padding: 9px;
+}
+
 /* This is the styling for the not-animated dropdown */
 /*.nav li ul {
     position:absolute;
