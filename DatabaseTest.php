@@ -52,7 +52,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
 
-        echo ". You are eating ". $row["meal_name"]. "!" ."<br>";
+        echo ". You are eating ". $row["meal_name"]. "!" ."<br><br>";
 
     	$ingredientsql = "SELECT i.ingredient_name, FORMAT(i.price/100, 2) price
     	FROM ingredient i 
@@ -63,8 +63,10 @@ if ($result->num_rows > 0) {
 		$ingredientresult = $conn->query($ingredientsql);
 		
 		echo "You will need the following: <br>";
+		echo "<table>";
+		echo "<tr><th>Ingredient</th><th>Price</th></tr>";
 		while($ingredientrow = $ingredientresult->fetch_assoc()) {
-			echo $ingredientrow["ingredient_name"]." (£".$ingredientrow["price"].")"."<br>";
+			echo "<tr><td>".$ingredientrow["ingredient_name"]."</td><td>£".$ingredientrow["price"]."</td></tr>";
 		}
 		echo "<br>";
 		
@@ -77,7 +79,8 @@ if ($result->num_rows > 0) {
     	$ingredienttotalresult = $conn->query($ingredienttotalsql);
     	
     	$totalprice = $ingredienttotalresult->fetch_assoc()["price"];
-    	echo "Total price = £".$totalprice;
+    	echo "<tr><td>Total price</td><td>£".$totalprice."</td></tr>";
+    	echo "</table>";
 
     }
 } else {
