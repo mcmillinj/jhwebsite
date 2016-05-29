@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
  <meta charset="utf-8">
- <title>Database Test</title>
+ <title>Meal Planner</title>
  <link rel="stylesheet" href="index.css" type="text/css" media="screen">
 </head>
 <body>
@@ -23,12 +23,12 @@
         	<a href="VocabTest.html" title="Test your vocab!">Vocab Test</a>
         </li>
         <li>
-        	<a href="DatabaseTest.php" title="Test your database!">Database Test</a>
+        	<a href="MealPlanner.php" title="What's on the menu?">Meal Planner</a>
         </li>
     </ul>
 </nav>
 
-<h1>Database Test</h1>
+<h1>Meal Planner</h1>
 <p>
 <?php
 $servername = "localhost";
