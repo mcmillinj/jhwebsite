@@ -33,7 +33,7 @@ INSERT INTO ingredient VALUES (1, 'Minced Beef 500g', 400, 620);
 INSERT INTO ingredient VALUES (2, 'Onion', 20, 60);
 INSERT INTO ingredient VALUES (3, 'Garlic', 30, 6);
 INSERT INTO ingredient VALUES (4, 'Chopped Tomatoes 400g', 50, 100);
-INSERT INTO ingredient VALUES (5, 'Beef Stock (Knorr)', 35, 15);
+INSERT INTO ingredient VALUES (5, 'Beef Stock (goo pot)', 35, 15);
 INSERT INTO ingredient VALUES (6, 'Jalapenos 100g', 65, 16);
 INSERT INTO ingredient VALUES (7, 'Kidney Beans 400g', 50, 280);
 INSERT INTO ingredient VALUES (8, 'Carrots x2', 10, 20);
