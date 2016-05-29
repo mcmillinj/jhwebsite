@@ -28,6 +28,7 @@ CREATE TABLE meal_ingredient_bridge (
 INSERT INTO meal VALUES (1, 'Chilli Con Carne', 5, 3, 4);
 INSERT INTO meal VALUES (2, 'Spaghetti Bolognese', 3, 3, 4);
 INSERT INTO meal VALUES (3, 'Pasta Verde', 4, 3, 4);
+INSERT INTO meal VALUES (4, 'Spanish Stew', 5, 4, 4);
 
 INSERT INTO ingredient VALUES (1, 'Minced Beef 500g', 400);
 INSERT INTO ingredient VALUES (2, 'Onion', 20);
@@ -45,6 +46,11 @@ INSERT INTO ingredient VALUES (13, 'Chestnut Mushrooms 250g', 100);
 INSERT INTO ingredient VALUES (14, 'Double Cream 300ml', 90);
 INSERT INTO ingredient VALUES (15, 'White Wine (glass)', 100);
 INSERT INTO ingredient VALUES (16, 'Pasta 500g', 100);
+INSERT INTO ingredient VALUES (17, 'Green Olives 340g', 75);
+INSERT INTO ingredient VALUES (18, 'Chicken Breast 300g', 250);
+INSERT INTO ingredient VALUES (19, 'Chorizo Ring 225g', 250);
+INSERT INTO ingredient VALUES (20, 'Butter Beans 400g', 50);
+
 
 INSERT INTO meal_ingredient_bridge VALUES (1, 1);
 INSERT INTO meal_ingredient_bridge VALUES (1, 2);
@@ -68,4 +74,13 @@ INSERT INTO meal_ingredient_bridge VALUES (3, 13);
 INSERT INTO meal_ingredient_bridge VALUES (3, 14);
 INSERT INTO meal_ingredient_bridge VALUES (3, 15);
 INSERT INTO meal_ingredient_bridge VALUES (3, 16);
+INSERT INTO meal_ingredient_bridge VALUES (4, 2);
+INSERT INTO meal_ingredient_bridge VALUES (4, 3);
+INSERT INTO meal_ingredient_bridge VALUES (4, 4);
+INSERT INTO meal_ingredient_bridge VALUES (4, 4);
+INSERT INTO meal_ingredient_bridge VALUES (4, 17);
+INSERT INTO meal_ingredient_bridge VALUES (4, 18);
+INSERT INTO meal_ingredient_bridge VALUES (4, 19);
+INSERT INTO meal_ingredient_bridge VALUES (4, 20);
+
 COMMIT;
