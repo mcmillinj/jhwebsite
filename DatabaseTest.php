@@ -80,7 +80,7 @@ if ($result->num_rows > 0) {
     	$ingredienttotalresult = $conn->query($ingredienttotalsql);
     	
     	$totalprice = $ingredienttotalresult->fetch_assoc()["price"];
-    	echo "<tr><td>Total price</td><td>£".$totalprice."</td></tr>";
+    	echo "<tfoot><tr><td>TOTAL</td><td>£".$totalprice."</td></tr></tfoot>";
     	echo "</table>";
 
     }
