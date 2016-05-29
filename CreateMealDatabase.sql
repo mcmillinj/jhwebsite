@@ -39,7 +39,7 @@ INSERT INTO ingredient VALUES (7, 'Kidney Beans 400g', 50, 280);
 INSERT INTO ingredient VALUES (8, 'Carrots x2', 10, 20);
 INSERT INTO ingredient VALUES (9, 'Parmesan 100g', 135, 400);
 INSERT INTO ingredient VALUES (10, 'Red Wine (glass)', 100, 120);
-INSERT INTO ingredient VALUES (11, 'Spaghetti 500g', 20, 1750);
+INSERT INTO ingredient VALUES (11, 'Spaghetti 500g', 100, 1750);
 
 INSERT INTO meal_ingredient_bridge VALUES (1, 1);
 INSERT INTO meal_ingredient_bridge VALUES (1, 2);
