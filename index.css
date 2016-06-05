@@ -137,6 +137,14 @@ button:focus {
 	outline: 0;
 }
 
+#healthy-button {
+	width: 150px;
+}
+
+#leftovers-button {
+	width: 150px;
+}
+
 input {
 	color: #624;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -294,4 +302,14 @@ tfoot td {
 .read-more a {
 	text-decoration: none;
 	color: #00cbcb;
+}
+
+#meal-planner-div {
+	text-align: center;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: left;
 }
