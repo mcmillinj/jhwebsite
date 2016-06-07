@@ -44,21 +44,21 @@
 	</tr>
 	<tr>
 		<td class="outer-grid" id="top-row">▶</td>
-		<td id="top-left"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="top-middle"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="top-right"><p class="card-name"></p><p class="manacost"></p></td>
+		<td id="top-left"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="top-middle"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="top-right"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
 	</tr>
 	<tr>
 		<td class="outer-grid" id="middle-row">▶</td>
-		<td id="middle-left"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="middle-middle"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="middle-right"><p class="card-name"></p><p class="manacost"></p></td>
+		<td id="middle-left"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="middle-middle"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="middle-right"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
 	</tr>
 	<tr>
 		<td class="outer-grid" id="bottom-row">▶</td>
-		<td id="bottom-left"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="bottom-middle"><p class="card-name"></p><p class="manacost"></p></td>
-		<td id="bottom-right"><p class="card-name"></p><p class="manacost"></p></td>
+		<td id="bottom-left"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="bottom-middle"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
+		<td id="bottom-right"><p class="card-name" hidden></p><p class="manacost" hidden></p><img class="card-image" /></td>
 	</tr>
 </table>
 
@@ -120,7 +120,9 @@ function getRandomCard() {
     }
     cardDetails.push(cardColour);		
     var cardManacost = cardsXml.getElementsByTagName("card")[randCard].childNodes[7].childNodes[0].nodeValue;
-    cardDetails.push(cardManacost);		
+    cardDetails.push(cardManacost);
+    var cardImageUrl = cardsXml.getElementsByTagName("card")[randCard].childNodes[3].getAttributeNode("picURL").value;
+    cardDetails.push(cardImageUrl);
     return cardDetails;
 };
 
@@ -138,6 +140,11 @@ function buildDraftGrid() {
 
 function draftCard(position) {
 		var randomCard = getRandomCard();
+		var cardImageUrl = randomCard[4];
+		document.getElementById(position).childNodes[2].removeAttribute("src");
+		document.getElementById(position).childNodes[2].removeAttribute("alt");
+		document.getElementById(position).childNodes[2].setAttribute("alt", randomCard[1]);
+		document.getElementById(position).childNodes[2].setAttribute("src", cardImageUrl);
 		document.getElementById(position).childNodes[0].innerHTML = randomCard[1];
 		document.getElementById(position).childNodes[1].innerHTML = randomCard[3];
 		document.getElementById(position).style.backgroundColor = randomCard[2];

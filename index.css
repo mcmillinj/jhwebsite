@@ -347,3 +347,8 @@ table.center {
     background-color: #055;
     cursor: pointer;
 }
+
+.card-image {
+	max-height: 200px;
+	max-width: 200px;
+}
