@@ -316,3 +316,34 @@ table.center {
     text-align: left;
     width: 400px;
 }
+
+#draft-grid {
+	margin-left:auto;
+	margin-right:auto;
+	width: 600px;
+	height: 600px;
+	table-layout: fixed;
+	text-align: center;
+	border-collapse:collapse;
+}
+
+.outer-grid {
+    background-color: #624;
+    color: #fff;
+    border-collapse:collapse;
+}
+
+#top-corner, #top-row, #middle-row, #bottom-row {
+    width: 10%;
+}
+
+#top-corner, #left-column, #middle-column, #right-column {
+    height: 10%;
+}
+
+#top-row:hover, #middle-row:hover, #bottom-row:hover,
+#left-column:hover, #middle-column:hover, #right-column:hover
+{
+    background-color: #055;
+    cursor: pointer;
+}

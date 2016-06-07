@@ -25,6 +25,9 @@
         <li>
         	<a href="MealPlanner.php" title="What's on the menu?">Meal Planner</a>
         </li>
+        <li>
+        	<a href="MTG Drafter\CubeDrafter.php" title="Draft some Magic!">Cube Drafter</a>
+        </li>
     </ul>
 </nav>
 <div id="meal-planner-div">
