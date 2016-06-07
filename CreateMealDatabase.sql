@@ -38,6 +38,9 @@ INSERT INTO meal VALUES (5, 'Chilli Risotto', 4);
 INSERT INTO meal VALUES (6, 'Salmon, Kale and Mash', 2);
 INSERT INTO meal VALUES (7, 'Bibimbap', 2);
 INSERT INTO meal VALUES (8, 'Pad Thai', 4);
+INSERT INTO meal VALUES (9, 'Butter Chicken', 6);
+INSERT INTO meal VALUES (10, 'Pasta Puttanesca', 4);
+INSERT INTO meal VALUES (11, 'Tartiflette', 6);
 
 INSERT INTO ingredient VALUES (1, 'Lean Minced Beef 500g', 400, 620, 22, 10, 0, 0, 0, 104);
 INSERT INTO ingredient VALUES (2, 'Onion', 15, 80, 0, 0, 16, 13, 3, 2);
@@ -77,6 +80,12 @@ INSERT INTO ingredient VALUES (35, 'Salted Peanuts 100g', 24, 596, 48, 6, 10, 7,
 INSERT INTO ingredient VALUES (36, 'Spring Onion 50g', 25, 16, 0, 0, 4, 1, 1, 1);
 INSERT INTO ingredient VALUES (37, 'Lime', 35, 20, 0, 0, 7, 1, 2, 1);
 INSERT INTO ingredient VALUES (38, 'Fish Sauce 120ml', 25, 64, 0, 0, 2, 2, 0, 11);
+INSERT INTO ingredient VALUES (39, 'Lemon', 35, 24, 0, 0, 8, 2, 2, 1);
+INSERT INTO ingredient VALUES (40, 'Chicken Breast 950g', 550, 1007, 10, 3, 0, 0, 0, 28);
+INSERT INTO ingredient VALUES (41, 'Anchovies 50g', 70, 63, 4, 1, 0, 0, 0, 8);
+INSERT INTO ingredient VALUES (42, 'Capers 100g', 150, 23, 1, 0, 5, 0, 3, 2);
+INSERT INTO ingredient VALUES (43, 'Waxy Potatoes 1.25kg', 100, 2725, 84, 0, 4265, 5, 17, 18);
+INSERT INTO ingredient VALUES (44, 'Reblochon', 300, 702, 59, 37, 0, 0, 0, 43);
 
 
 INSERT INTO meal_ingredient_bridge VALUES (1, 1);
@@ -134,6 +143,31 @@ INSERT INTO meal_ingredient_bridge VALUES (8, 36);
 INSERT INTO meal_ingredient_bridge VALUES (8, 37);
 INSERT INTO meal_ingredient_bridge VALUES (8, 37);
 INSERT INTO meal_ingredient_bridge VALUES (8, 38);
+INSERT INTO meal_ingredient_bridge VALUES (9, 2);
+INSERT INTO meal_ingredient_bridge VALUES (9, 2);
+INSERT INTO meal_ingredient_bridge VALUES (9, 3);
+INSERT INTO meal_ingredient_bridge VALUES (9, 4);
+INSERT INTO meal_ingredient_bridge VALUES (9, 4);
+INSERT INTO meal_ingredient_bridge VALUES (9, 14);
+INSERT INTO meal_ingredient_bridge VALUES (9, 25);
+INSERT INTO meal_ingredient_bridge VALUES (9, 40);
+INSERT INTO meal_ingredient_bridge VALUES (10, 3);
+INSERT INTO meal_ingredient_bridge VALUES (10, 4);
+INSERT INTO meal_ingredient_bridge VALUES (10, 11);
+INSERT INTO meal_ingredient_bridge VALUES (10, 17);
+INSERT INTO meal_ingredient_bridge VALUES (10, 22);
+INSERT INTO meal_ingredient_bridge VALUES (10, 41);
+INSERT INTO meal_ingredient_bridge VALUES (10, 41);
+INSERT INTO meal_ingredient_bridge VALUES (10, 42);
+INSERT INTO meal_ingredient_bridge VALUES (11, 2);
+INSERT INTO meal_ingredient_bridge VALUES (11, 3);
+INSERT INTO meal_ingredient_bridge VALUES (11, 14);
+INSERT INTO meal_ingredient_bridge VALUES (11, 15);
+INSERT INTO meal_ingredient_bridge VALUES (11, 19);
+INSERT INTO meal_ingredient_bridge VALUES (11, 25);
+INSERT INTO meal_ingredient_bridge VALUES (11, 43);
+INSERT INTO meal_ingredient_bridge VALUES (11, 44);
+
 
 
 COMMIT;
