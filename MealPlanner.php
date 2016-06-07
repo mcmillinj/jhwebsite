@@ -35,6 +35,18 @@
 
 <p>
 <?php
+if(isset($_GET['healthyOption']))
+{
+    $healthyOption = $_GET['healthyOption'];
+}
+if(isset($_GET['leftoversOption']))
+{
+    $leftoversOption = $_GET['leftoversOption'];
+}
+echo "healthyOption is ".$healthyOption;
+echo "<br>";
+echo "leftoversOption is ".$leftoversOption;
+
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -46,10 +58,14 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+
 $result = $conn->query("SELECT count(*) FROM meal");
 $myMealId = rand(1,$result->fetch_assoc()["count(*)"]);
-//echo $myMealId;
-$sql = "SELECT meal_name FROM meal WHERE meal_key = ".$myMealId;
+
+$sql = "SELECT meal_name 
+		FROM meal 
+		WHERE meal_key = ".$myMealId
+;
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -104,7 +120,7 @@ if ($result->num_rows > 0) {
     	$ingredienttotalresult = $conn->query($ingredienttotalsql);    	
     	$totalkcal = $ingredienttotalresult->fetch_assoc()["kcal"];
     	
-		$kcalperportion = $totalkcal / $portions;   	
+		$kcalperportion = round($totalkcal / $portions,0);   	
    		
     	echo "<p>This meal makes ".$portions." portions and has ".$kcalperportion." calories per portion.</p>";
 
@@ -148,8 +164,8 @@ var flipHealthy = function () {
 		document.getElementById("healthy-button").innerHTML = 'Healthy';
 	} else {
 		document.getElementById("healthy-button").innerHTML = 'Unhealthy';
-	}	
-	//location.reload();
+	}
+	window.location.href = "MealPlanner.php?healthyOption=" + healthyOption + "&leftoversOption=" + leftoversOption;
 };
 
 var flipLeftovers = function () {
@@ -161,6 +177,7 @@ var flipLeftovers = function () {
 	sessionStorage.setItem('leftoversOptionSession', leftoversOption);
 	document.getElementById("leftovers-button").innerHTML = leftoversOption;
 	//location.reload();
+	window.location.href = "MealPlanner.php?healthyOption=" + healthyOption + "&leftoversOption=" + leftoversOption;
 };
 
 var button = document.querySelector("#healthy-button");
