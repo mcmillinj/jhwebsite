@@ -67,9 +67,14 @@
 
 </div>
 <script>
+
 var cardsXml;
 var numberOfCards;
 var pickedCards = [];
+var mythics = [];
+var rares = [];
+var uncommons = [];
+var commons = [];
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -80,7 +85,16 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "SOI.xml", false);
 xhttp.send();
 
+var numberOfMythics = 0;
+var numberOfRares = 0;
+var numberOfUncommons = 0;
+var numberOfCommons = 0;
+
+setRarityCounts();
+
 buildDraftGrid();
+
+/////////////////////////////////////////////////////////////////////////////////////////
 
 
 function loadCards(xml) {
@@ -88,43 +102,112 @@ function loadCards(xml) {
     numberOfCards = cardsXml.getElementsByTagName("card").length;
 };
 
-function getRandomCard() {
-	var cardDetails = [];
-	var randCard = Math.floor((Math.random() * (numberOfCards)));
-	cardDetails.push(randCard);
-    var cardName = cardsXml.getElementsByTagName("card")[randCard].childNodes[1].childNodes[0].nodeValue;
-    cardDetails.push(cardName);
-    var cardColourId = cardsXml.getElementsByTagName("card")[randCard].childNodes[5].childNodes[0].nodeValue;
+function getCardName(raritySet, cardNumber) {
+	return raritySet[cardNumber].childNodes[1].childNodes[0].nodeValue;
+};
+
+function getCardColour(raritySet, cardNumber) {
+	var cardColourId = raritySet[cardNumber].childNodes[5].childNodes[0].nodeValue;
     var cardColour;
     switch (cardColourId) {
     	case "W":
-    		cardColour = "#F5F4CB";
+			cardColour = "#F5F4CB";
+   			break;
+   		case "U":
+   			cardColour = "#92CBE8";
     		break;
-    	case "U":
-    		cardColour = "#92CBE8";
-    		break;
-    	case "B":
-    		cardColour = "#9696A3";
-    		break;
+   		case "B":
+   			cardColour = "#9696A3";
+   			break;
     	case "R":
-    		cardColour = "#F2A98A";
-    		break;
+   			cardColour = "#F2A98A";
+   			break;
     	case "G":
-    		cardColour = "#A2C78B";
-    		break;
+   			cardColour = "#A2C78B";
+   			break;
     	case "C":
-    		cardColour = "#8F6B63";
-    		break;
+   			cardColour = "#8F6B63";
+   			break;
     	default:
-    		cardColour = "#EBDB34";
+   			cardColour = "#EBDB34";
     }
-    cardDetails.push(cardColour);		
-    var cardManacost = cardsXml.getElementsByTagName("card")[randCard].childNodes[7].childNodes[0].nodeValue;
-    cardDetails.push(cardManacost);
-    var cardImageUrl = cardsXml.getElementsByTagName("card")[randCard].childNodes[3].getAttributeNode("picURL").value;
-    cardDetails.push(cardImageUrl);
+    return cardColour;
+};
+
+function getCardManacost(raritySet, cardNumber) {
+	return raritySet[cardNumber].childNodes[7].childNodes[0].nodeValue;
+};
+
+function getCardImageUrl(raritySet, cardNumber) {
+	return raritySet[cardNumber].childNodes[3].getAttributeNode("picURL").value;
+};
+
+function getRandomCard() {
+
+	var cardDetails = [];
+	var raritySet;
+	var randCard;
+	
+	var rarityRoll = Math.ceil(Math.random() * 112);
+	
+	if (rarityRoll <= 80) {
+		raritySet = commons;
+		randCard = Math.floor(Math.random() * numberOfCommons);
+	} else if (rarityRoll <= 104) {
+		raritySet = uncommons;
+		randCard = Math.floor(Math.random() * numberOfUncommons);
+	} else if (rarityRoll <= 111) {
+		raritySet = rares;
+		randCard = Math.floor(Math.random() * numberOfRares);
+	} else {
+		raritySet = mythics;
+		randCard = Math.floor(Math.random() * numberOfMythics);
+	}
+	
+	var cardName = getCardName(raritySet,randCard);
+	cardDetails.push(cardName);
+    
+    var cardColour = getCardColour(raritySet,randCard);
+	cardDetails.push(cardColour);		
+    
+    var cardManacost = getCardManacost(raritySet,randCard);
+	cardDetails.push(cardManacost);
+   	
+   	var cardImageUrl = getCardImageUrl(raritySet,randCard);
+   	cardDetails.push(cardImageUrl);
+    
     return cardDetails;
 };
+
+
+
+function setRarityCounts() {
+	var cards = cardsXml.getElementsByTagName("card");
+	for(var i=0; i<cards.length; i++) {
+  		switch (cards[i].getAttribute('rarity')) {
+    		case "M":
+    			mythics.push(cards[i]);
+    			numberOfMythics++;
+    			break;
+    		case "R":
+    			rares.push(cards[i]);
+    			numberOfRares++;
+    			break;
+    		case "U":
+    			uncommons.push(cards[i]);
+    			numberOfUncommons++;
+    			break;
+    		case "C":
+    			commons.push(cards[i]);
+    			numberOfCommons++;
+    			break;
+    		default:
+    			alert("There is a card with no rarity attribute. Check XML.");
+    			break;
+  		}
+	}
+}
+	
 
 function buildDraftGrid() {
 	draftCard("top-left");
@@ -140,14 +223,14 @@ function buildDraftGrid() {
 
 function draftCard(position) {
 		var randomCard = getRandomCard();
-		var cardImageUrl = randomCard[4];
+		var cardImageUrl = randomCard[3];
 		document.getElementById(position).childNodes[2].removeAttribute("src");
 		document.getElementById(position).childNodes[2].removeAttribute("alt");
-		document.getElementById(position).childNodes[2].setAttribute("alt", randomCard[1]);
+		document.getElementById(position).childNodes[2].setAttribute("alt", randomCard[0]);
 		document.getElementById(position).childNodes[2].setAttribute("src", cardImageUrl);
-		document.getElementById(position).childNodes[0].innerHTML = randomCard[1];
-		document.getElementById(position).childNodes[1].innerHTML = randomCard[3];
-		document.getElementById(position).style.backgroundColor = randomCard[2];
+		document.getElementById(position).childNodes[0].innerHTML = randomCard[0];
+		document.getElementById(position).childNodes[1].innerHTML = randomCard[2];
+		document.getElementById(position).style.backgroundColor = randomCard[1];
 };	
 
 function pickCardFromGrid(position) {

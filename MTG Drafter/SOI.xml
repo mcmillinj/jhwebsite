@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <cards>
 
-<card>
+<card rarity="M">
     <name>Archangel Avacyn</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/374/200/283/635928046019840806.png">SOI</set>
     <color>W</color>
@@ -34,7 +34,7 @@ When a non-Angel creature you control dies, transform Archangel Avacyn at the be
 When this creature transforms into Avacyn, the Purifier, it deals 3 damage to each other creature and each opponent.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Avacynian Missionaries</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/368/200/283/635927916331523587.png">SOI</set>
     <color>W</color>
@@ -59,7 +59,7 @@ When this creature transforms into Avacyn, the Purifier, it deals 3 damage to ea
     <text>When this creature transforms in to Lunarch Inquisitors, you may exile another target creature until Lunarch Inquisitors leaves the battlefield.</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Bygone Bishop</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/326/200/283/635926378839438628.png">SOI</set>
     <color>W</color>
@@ -72,7 +72,7 @@ When this creature transforms into Avacyn, the Purifier, it deals 3 damage to ea
 Whenever you cast a creature spell with converted mana cost 3 or less, investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Declaration in Stone</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/361/200/283/635927653724782467.png">SOI</set>
     <color>W</color>
@@ -83,7 +83,7 @@ Whenever you cast a creature spell with converted mana cost 3 or less, investiga
     <text>Exile target creature and all other creatures its controller controls with the same name as that creature. That player investigates for each nontoken creature exiled this way.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Eerie Interlude</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/430/200/283/635929767743816575.png">SOI</set>
     <color>W</color>
@@ -94,7 +94,7 @@ Whenever you cast a creature spell with converted mana cost 3 or less, investiga
     <text>Exile any number of target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Reaper of Flight Moonsilver</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/402/200/283/635929423495517509.png">SOI</set>
     <color>W</color>
@@ -107,7 +107,7 @@ Whenever you cast a creature spell with converted mana cost 3 or less, investiga
 Delirium — Sacrifice another creature: Reaper of Flight Moonsilver gets +2/+1 until end of turn. Activate this ability only if there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Thraben Inspector</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/407/200/283/635929430081855508.png">SOI</set>
     <color>W</color>
@@ -119,7 +119,7 @@ Delirium — Sacrifice another creature: Reaper of Flight Moonsilver gets +2/+1 
     <text>When Thraben Inspector enters the battlefield, investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Topplegeist</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/431/200/283/635929768398748296.png">SOI</set>
     <color>W</color>
@@ -133,7 +133,7 @@ When Topplegeist enters the battlefield, tap target creature an opponent control
 Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, tap target creature that player controls.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Aberrant Researcher</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/349/200/283/635927243839144107.png">SOI</set>
     <color>U</color>
@@ -159,7 +159,7 @@ At the beginning of your upkeep, put the top card of your library into your grav
     <text>Flying</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Thing in the Ice</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/406/200/283/635929428912838152.png">SOI</set>
     <color>U</color>
@@ -186,7 +186,7 @@ Whenever you cast an instant or sorcery spell, remove an ice counter from Thing 
     <text>When this creature transforms into Awoken Horror, return all non-Horror creatures to their owner's hands.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Compelling Deterrence</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/432/200/283/635929768697385641.png">SOI</set>
     <color>U</color>
@@ -197,7 +197,7 @@ Whenever you cast an instant or sorcery spell, remove an ice counter from Thing 
     <text>Return target nonland permanent to its owner's hand. Then that player discards a card if you control a Zombie.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Geralf's Masterpiece</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/339/200/283/635926731425539938.png">SOI</set>
     <color>U</color>
@@ -211,7 +211,7 @@ Geralf's Masterpiece gets -1/-1 for each card in your hand.
 3U, Discard three cards: Return Geralf's Materpiece from your graveyard to the battlefield tapped.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Just the Wind</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/415/200/283/635929439169052482.png">SOI</set>
     <color>U</color>
@@ -223,7 +223,7 @@ Geralf's Masterpiece gets -1/-1 for each card in your hand.
 Madness U (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Pore Over the Pages</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/433/200/283/635929769269192166.png">SOI</set>
     <color>U</color>
@@ -234,7 +234,7 @@ Madness U (If you discard this card, discard it into exile. When you do, cast it
     <text>Draw three cards, untap up to two lands, then discard a card.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Elusive Tormentor</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/412/200/283/635929435589223529.png">SOI</set>
     <color>B</color>
@@ -261,7 +261,7 @@ Insidious Mist can't block and can't be blocked.
 Whenever Insidious Mist attacks and isn't blocked, you may pay 2B. If you do, transform it.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Farbog Revenant</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/410/200/283/635929434264365020.png">SOI</set>
     <color>B</color>
@@ -274,7 +274,7 @@ Whenever Insidious Mist attacks and isn't blocked, you may pay 2B. If you do, tr
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Mindwrack Demon</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/411/200/283/635929434734747871.png">SOI</set>
     <color>B</color>
@@ -288,7 +288,7 @@ When Mindwrack Demon enters the battlefield, put the top four cards of your libr
 Delirium — At the beginning of your upkeep, you lose 4 life unless there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Pick the Brain</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/327/200/283/635926380827661223.png">SOI</set>
     <color>B</color>
@@ -300,7 +300,7 @@ Delirium — At the beginning of your upkeep, you lose 4 life unless there are f
 Delirium — If there are four or more card types among cards in your graveyard, search that player's graveyard, hand, and library for any number of cards with the same name as the exiled card, exile those cards, then that player shuffles his or her library.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Relentless Dead</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/342/200/283/635926830655057410.png">SOI</set>
     <color>B</color>
@@ -314,7 +314,7 @@ When Relentless Dead dies, you may pay B. If you do, return it to its owner's ha
 When Relentless Dead dies, you may pay x. If you do, return another target Zombie creature card with converted mana cost X from your graveyard to the battlefield.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Tooth Collector</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/324/200/283/635926302373427981.png">SOI</set>
     <color>B</color>
@@ -327,7 +327,7 @@ When Relentless Dead dies, you may pay x. If you do, return another target Zombi
 Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, target creature that player controls gets -1/-1 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Incorrigible Youths</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/340/200/283/635926814744495522.png">SOI</set>
     <color>R</color>
@@ -340,7 +340,7 @@ Delirium — At the beginning of each opponent's upkeep, if there are four or mo
 Madness 2R</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Ravenous Bloodseeker</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/409/200/283/635929432902538852.png">SOI</set>
     <color>R</color>
@@ -352,7 +352,7 @@ Madness 2R</text>
     <text>Discard a card: Ravenous Bloodseeker gets +2/-2 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Clip Wings</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/400/200/283/635929420555415411.png">SOI</set>
     <color>G</color>
@@ -363,7 +363,7 @@ Madness 2R</text>
     <text>Each opponent sacrifices a creature with flying.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Hinterland Logger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/447/200/283/635930428083899194.png">SOI</set>
     <color>G</color>
@@ -376,7 +376,7 @@ Madness 2R</text>
 	<related>Timber Shredder</related>
 </card>
 
-<card>
+<card rarity="R">
     <name>Soul Swallower</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/404/200/283/635929425407345445.png">SOI</set>
     <color>G</color>
@@ -402,7 +402,7 @@ Delirium — At the beginning of your upkeep, if there are four or more card typ
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Timber Shredder.</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Brain in a Jar</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/320/200/283/635926256257020202.png">SOI</set>
     <color>C</color>
@@ -414,7 +414,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 3, T: Remove X charge counters from Brain in a Jar: Scry X.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Magnifying Glass</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/408/200/283/635929431715728604.png">SOI</set>
     <color>C</color>
@@ -426,7 +426,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 4, t: Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Shard of Broken Glass</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/365/200/283/635927760887322220.png">SOI</set>
     <color>C</color>
@@ -439,10 +439,10 @@ Whenever equipped creature attacks, you may put the top two cards of your librar
 Equip 1</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Tamiyo's Journal</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/360/200/283/635927649577004108.png">SOI</set>
-    <color>5</color>
+    <color>C</color>
     <manacost>5</manacost>
     <cmc>5</cmc>
     <type>Legendary Artifact</type> 
@@ -451,7 +451,7 @@ Equip 1</text>
 T, Sacrifice three Clues: Search your library for a card and put that card into your hand. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Warped Landscape</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/414/200/283/635929437911386121.png">SOI</set>
     <color>C</color>
@@ -462,7 +462,7 @@ T, Sacrifice three Clues: Search your library for a card and put that card into 
 2, T, Sacrifice Warped Landscape: Search your library for a basic land card and put it onto the battlefield tapped. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Nahiri, the Harbinger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/577/200/283/635935475293776440.png">SOI</set>
     <color>RW</color>
@@ -478,7 +478,7 @@ T, Sacrifice three Clues: Search your library for a card and put that card into 
 -8: Search your library for an artifact or creature card, put it onto the battlefield, then shuffle your library. It gains haste. Return it to your hand at the beginning of the next end step.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Forsaken Sanctuary</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/519/200/283/635932895588689796.png">SOI</set>
     <color>C</color>
@@ -491,7 +491,7 @@ T, Sacrifice three Clues: Search your library for a card and put that card into 
 t: Add W or B to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Foul Orchard</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/515/200/283/635932891156054814.png">SOI</set>
     <color>C</color>
@@ -504,7 +504,7 @@ t: Add W or B to your mana pool.</text>
 t: Add B or G to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Highland Lake</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/518/200/283/635932893629954256.png">SOI</set>
     <color>C</color>
@@ -517,7 +517,7 @@ t: Add B or G to your mana pool.</text>
 t: Add U or R to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Stone Quarry</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/517/200/283/635932892756165246.png">SOI</set>
     <color>C</color>
@@ -530,7 +530,7 @@ t: Add U or R to your mana pool.</text>
 t: Add R or W to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Woodland Stream</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/516/200/283/635932891992104107.png">SOI</set>
     <color>C</color>
@@ -543,7 +543,7 @@ t: Add R or W to your mana pool.</text>
 t: Add G or U to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Angel of Deliverance</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/605/200/283/635936323369566979.png">SOI</set>
     <color>W</color>
@@ -556,7 +556,7 @@ t: Add G or U to your mana pool.</text>
 Delirium — Whenever Angel of Deliverance deals damage, if there are four or more card types among cards in your graveyard, exile target creature an opponent controls.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Descend upon the Sinful</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/571/200/283/635935465649301858.png">SOI</set>
     <color>W</color>
@@ -568,7 +568,7 @@ Delirium — Whenever Angel of Deliverance deals damage, if there are four or mo
 Delirium — Put a 4/4 white Angel creature token with flying onto the battlefield if there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Drogskol Cavalry</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/606/200/283/635936323598628569.png">SOI</set>
     <color>W</color>
@@ -582,7 +582,7 @@ Whenever another Spirit enters the battlefield under your control, you gain 2 li
 3W: Put a 1/1 white Spirit creature token with flying onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Pious Evangel</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/513/200/283/635932868194715353.jpeg">SOI</set>
     <color>W</color>
@@ -608,7 +608,7 @@ Whenever another Spirit enters the battlefield under your control, you gain 2 li
     <text>Whenever Wayward Disciple or another creature you control dies, target opponent loses 1 life and you gain 1 life.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Sinister Concoction</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/570/200/283/635935464502333111.png">SOI</set>
     <color>B</color>
@@ -619,7 +619,7 @@ Whenever another Spirit enters the battlefield under your control, you gain 2 li
     <text>B, Pay 1 life, Put the top card of your library into your graveyard, Discard a card, Sacrifice Sinister Concoction: Destroy target creature.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Markov Dreadknight</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/608/200/283/635936324469962788.png">SOI</set>
     <color>B</color>
@@ -632,7 +632,7 @@ Whenever another Spirit enters the battlefield under your control, you gain 2 li
 2B, Discard a card: Put two +1/+1 counters on Markov Dreadknight.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Crow of Dark Tidings</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/523/200/283/635933019995335989.png">SOI</set>
     <color>B</color>
@@ -645,7 +645,7 @@ Whenever another Spirit enters the battlefield under your control, you gain 2 li
 When Crow of Dark Tidings enters the battlefield or dies, put the top two cards of your library into your graveyard.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Nephalia Moondrakes</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/607/200/283/635936324207051240.png">SOI</set>
     <color>U</color>
@@ -659,7 +659,7 @@ When Nephalia Moondrakes enters the battlefield, target creature gains flying un
 4UU, Exile Nephalia Moondrakes from your graveyard: Creatures you control gain flying until end of turn.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Startled Awake</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/568/200/283/635935461655558052.png">SOI</set>
     <color>U</color>
@@ -685,7 +685,7 @@ When Nephalia Moondrakes enters the battlefield, target creature gains flying un
 When Persistent Nightmare deals combat damage to a player, return it to its owner's hand.</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Flameblade Angel</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/609/200/283/635936324680605288.png">SOI</set>
     <color>R</color>
@@ -698,7 +698,7 @@ When Persistent Nightmare deals combat damage to a player, return it to its owne
 Whenever a source an opponent controls deals damage to you or a permanent you control, you may have Flameblade Angel deal 1 damage to that source's controller.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Anguished Unmaking</name>
     <set picURL="http://media-dominaria.cursecdn.com/attachments/151/278/635935419426254838.png">SOI</set>
     <color>WB</color>
@@ -709,7 +709,7 @@ Whenever a source an opponent controls deals damage to you or a permanent you co
     <text>Exile target nonland permanent. You lose 3 life.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Odric, Lunarch Marshal</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/610/200/283/635936329160792624.png">SOI</set>
     <color>W</color>
@@ -721,7 +721,7 @@ Whenever a source an opponent controls deals damage to you or a permanent you co
     <text>At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Macabre Waltz</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/615/200/283/635936369122789536.png">SOI</set>
     <color>B</color>
@@ -732,7 +732,7 @@ Whenever a source an opponent controls deals damage to you or a permanent you co
     <text>Return up to two target creature cards from your graveyard to your hand, then discard a card.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>To the Slaughter</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/604/200/283/635936321350460136.png">SOI</set>
     <color>B</color>
@@ -745,7 +745,7 @@ Whenever a source an opponent controls deals damage to you or a permanent you co
 Delirium — If there are four or more card types among cards in your graveyard, instead that player sacrifices a creature and a planeswalker.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Wolf of Devil's Breach</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/587/200/283/635935791038351318.png">SOI</set>
     <color>R</color>
@@ -757,7 +757,7 @@ Delirium — If there are four or more card types among cards in your graveyard,
     <text>Whenever Wolf of Devil's Breach attacks, you may pay 1R and discard a card. If you do, Wolf of Devil's Breach deals damage to target creature or planeswalker equal to the discarded card's converted mana cost.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Sage of Ancient Lore</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/589/200/283/635935947088609135.png">SOI</set>
     <color>G</color>
@@ -791,7 +791,7 @@ Werewolf of Ancient Hunger's power and toughness are each equal to the total num
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Werewolf of Ancient Hunger.</text>
 </flipcard>
 
-<card>
+<card rarity="M">
     <name>Arlinn Kord</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/612/200/283/635936342954700444.png">SOI</set>
     <color>RG</color>
@@ -822,7 +822,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 -6: You get an emblem with "Creatures you control have haste and 't: This creature deals damage equal to its power to target creature or player.'"</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Fiery Temper</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/567/200/283/635935451278685115.png">SOI</set>
     <color>R</color>
@@ -835,7 +835,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 Madness R</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Olivia, Mobilized for War</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/640/200/283/635937191967251207.png">SOI</set>
     <color>BR</color>
@@ -849,7 +849,7 @@ Madness R</text>
 Whenever another creature enters the battlefield under your control, you may discard a card. If you do, put a +1/+1 counter on that creature, it gains haste until end of turn, and it becomes a Vampire in addition to its other types.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Jace, Unraveler of Secrets</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/641/200/283/635937193092132606.png">SOI</set>
     <color>U</color>
@@ -865,7 +865,7 @@ Whenever another creature enters the battlefield under your control, you may dis
 -8: You get an emblem with "Whenever an opponent casts his or her first spell each turn, counter that spell."</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Epiphany at the Drownyard</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/642/200/283/635937194223343239.png">SOI</set>
     <color>U</color>
@@ -876,7 +876,7 @@ Whenever another creature enters the battlefield under your control, you may dis
     <text>Reveal the top X plus one cards of your library and separate them into two piles. An opponent chooses one of those piles. Put that pile into your hand and the rest into your graveyard.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Sigarda, Heron's Grace</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/643/200/283/635937195504071963.jpeg">SOI</set>
     <color>GW</color>
@@ -892,7 +892,7 @@ You and Humans you control have hexproof.
 2, Exile a card from your graveyard: put a 1/1 white Human Soldier creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Harness the Storm</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/648/200/283/635937281898749756.png">SOI</set>
     <color>R</color>
@@ -903,7 +903,7 @@ You and Humans you control have hexproof.
     <text>Whenever you cast an instant or sorcery spell from your hand, you may cast target card with the same name as that spell from your graveyard. (You still pay its costs.)</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Rattlechains</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/668/200/283/635937692113675016.png">SOI</set>
     <color>U</color>
@@ -921,7 +921,7 @@ When Rattlechains enters the battlefield, target Spirit gains hexproof until end
 You may cast Spirit spells as though they had flash.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Heir of Falkenrath</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_MVs2OMNZIl.png">SOI</set>
     <color>B</color>
@@ -946,7 +946,7 @@ You may cast Spirit spells as though they had flash.</text>
     <text>Flying</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Breakneck Rider</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/660/200/283/635937680115999076.png">SOI</set>
     <color>R</color>
@@ -973,7 +973,7 @@ You may cast Spirit spells as though they had flash.</text>
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Neck Breaker.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Neglected Heirloom</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_fIuq1CFK1U.png">SOI</set>
     <color>C</color>
@@ -1002,7 +1002,7 @@ Equip 1</text>
 Equip 3</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Merciless Resolve</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_v5t8ivsql1.png">SOI</set>
     <color>B</color>
@@ -1015,7 +1015,7 @@ Equip 3</text>
 Draw two cards.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Olivia's Bloodsworn</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_E4Q2KUzhzz.png">SOI</set>
     <color>B</color>
@@ -1031,7 +1031,7 @@ Olivia's Bloodsworn can't block.
 R: Target Vampire gains haste until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stromkirk Mentor</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_MPRAMUNGxY.png">SOI</set>
     <color>B</color>
@@ -1043,7 +1043,7 @@ R: Target Vampire gains haste until end of turn.</text>
     <text>When Stromkirk Mentor enters the battlefield, put a +1/+1 counter on another target Vampire you control.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Twins of Maurer Estate</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_bKvJc2eKA7.png">SOI</set>
     <color>B</color>
@@ -1055,7 +1055,7 @@ R: Target Vampire gains haste until end of turn.</text>
     <text>Madness 2B</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Falkenrath Gorger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/667/200/283/635937690767232712.png">SOI</set>
     <color>R</color>
@@ -1067,7 +1067,7 @@ R: Target Vampire gains haste until end of turn.</text>
     <text>Each Vampire creature card you own that isn't on the battlefield has madness. The madness cost is equal to its mana cost.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Deathcap Cultivator</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/677/200/283/635938049321292351.png">SOI</set>
     <color>G</color>
@@ -1081,7 +1081,7 @@ R: Target Vampire gains haste until end of turn.</text>
 Delirium - Deathcap Cultivator has deathtouch as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Groundskeeper</name>
     <set picURL="http://media.wizards.com/2016/aksdjciawolkcc0_soi/en_TWgwvMXUOD.png">SOI</set>
     <color>G</color>
@@ -1093,7 +1093,7 @@ Delirium - Deathcap Cultivator has deathtouch as long as there are four or more 
     <text>1G: Return target basic land card from your graveyard to your hand.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Traverse the Ulvenwald</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/671/200/283/635937965755172271.png">SOI</set>
     <color>G</color>
@@ -1106,7 +1106,7 @@ Delirium - Deathcap Cultivator has deathtouch as long as there are four or more 
 Delirium - If there are four or more card types among cards in your graveyard, instead search your library for a creature or land card, reveal it, put it into your hand, then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Sorin, Grim Nemesis</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/676/200/283/635938047382275898.png">SOI</set>
     <color>BW</color>
@@ -1122,7 +1122,7 @@ Delirium - If there are four or more card types among cards in your graveyard, i
 -9: Put a number of 1/1 black Vampire Knight creature tokens with lifelink onto the battlefield equal to the highest life total among all players.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vessel of Volatility</name>
     <set picURL="http://i.imgur.com/8HQ0dnx.png">SOI</set>
     <color>R</color>
@@ -1133,7 +1133,7 @@ Delirium - If there are four or more card types among cards in your graveyard, i
     <text>1R, Sacrifice Vessel of Volatility: Add RRRR to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Paranoid Parish-Blade</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/702/200/283/635938819418076992.png">SOI</set>
     <color>W</color>
@@ -1145,7 +1145,7 @@ Delirium - If there are four or more card types among cards in your graveyard, i
     <text>Delirium — Paranoid Parish-Blade gets +1/+0 and has first strike as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Thalia's Lieutenant</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/710/200/283/635938906319203832.png">SOI</set>
     <color>W</color>
@@ -1171,7 +1171,7 @@ Whenever another Human enters the battlefield under your control, put a +1/+1 co
 Whenever Bearer of Overwhelming Truths deals combat damage to a player, investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Daring Sleuth</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/684/200/283/635938224692392832.png">SOI</set>
     <color>U</color>
@@ -1184,7 +1184,7 @@ Whenever Bearer of Overwhelming Truths deals combat damage to a player, investig
 	<related>Bearer of Overwhelming Truths</related>
 </card>
 
-<card>
+<card rarity="C">
     <name>Jace's Scrutiny</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/683/200/283/635938222363379046.png">SOI</set>
     <color>U</color>
@@ -1196,7 +1196,7 @@ Whenever Bearer of Overwhelming Truths deals combat damage to a player, investig
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Manic Scribe</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/700/200/283/635938817135539724.png">SOI</set>
     <color>U</color>
@@ -1209,7 +1209,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, 
 Delirium — At the beginning of each opponent's upkeep, if you have four or more card types among cards in your graveyard, that player puts the top three cards of his or her library into his or her graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Ongoing Investigation</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/681/200/283/635938219813120671.png">SOI</set>
     <color>U</color>
@@ -1221,7 +1221,7 @@ Delirium — At the beginning of each opponent's upkeep, if you have four or mor
 1G, Exile a creature card from your graveyard: Investigate. You gain 2 life.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Pieces of the Puzzle</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/712/200/283/635938965953430104.png">SOI</set>
     <color>U</color>
@@ -1232,7 +1232,7 @@ Delirium — At the beginning of each opponent's upkeep, if you have four or mor
     <text>Reveal the top five cards of your library. Put up to two instant and/or sorcery cards from among them into your hand and the rest into your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Rise from the Tides</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/713/200/283/635938966531685491.png">SOI</set>
     <color>U</color>
@@ -1243,7 +1243,7 @@ Delirium — At the beginning of each opponent's upkeep, if you have four or mor
     <text>Put a 2/2 black Zombie creature token onto the battlefield tapped for each instant and sorcery card in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Trail of Evidence</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/682/200/283/635938221440512708.png">SOI</set>
     <color>U</color>
@@ -1254,7 +1254,7 @@ Delirium — At the beginning of each opponent's upkeep, if you have four or mor
     <text>Whenever you cast an instant or sorcery spell, investigate. >(Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Welcome to the Fold</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/711/200/283/635938909296843587.png">SOI</set>
     <color>U</color>
@@ -1266,7 +1266,7 @@ Delirium — At the beginning of each opponent's upkeep, if you have four or mor
 Gain control of target creature if its toughness if 2 or less. If Welcome to the Fold's madness cost was paid, instead gain control of that creature if its toughness is X or less.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Behold the Beyond</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/691/200/283/635938433218440926.jpeg">SOI</set>
     <color>B</color>
@@ -1277,7 +1277,7 @@ Gain control of target creature if its toughness if 2 or less. If Welcome to the
     <text>Discard your hand. Search your library for three cards and put those cards into your hand. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Diregraf Colossus</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/715/200/283/635938969577018219.png">SOI</set>
     <color>B</color>
@@ -1302,7 +1302,7 @@ Whenever you cast a Zombie spell, put a 2/2 black Zombie creature token onto the
     <text>Flying, lifelink, indestructible, haste</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Gibbering Fiend</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/701/200/283/635938818222405437.png">SOI</set>
     <color>R</color>
@@ -1328,7 +1328,7 @@ Delirium — At the beginning of each opponent's upkeep, if there are four or mo
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Moonrise Intruder.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Village Messenger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/705/200/283/635938835899359471.jpeg">SOI</set>
     <color>R</color>
@@ -1342,7 +1342,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Vil
 	<related>Moonrise Intruder</related>
 </card>
 
-<card>
+<card rarity="U">
     <name>Briarbridge Patrol</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/687/200/283/635938283695606254.png">SOI</set>
     <color>G</color>
@@ -1355,7 +1355,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Vil
 At the beginning of each end step, if you sacrificed three or more Clues this turn, you may put a creature card from your hand onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Obsessive Skinner</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/699/200/283/635938815691444922.png">SOI</set>
     <color>G</color>
@@ -1368,7 +1368,7 @@ At the beginning of each end step, if you sacrificed three or more Clues this tu
 Delirium — At the beginning of each opponent's upkeep, if there are four or more card types among cards in your graveyard, put a +1/+1 counter on target creature.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Second Harvest</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/698/200/283/635938811444616400.jpeg">SOI</set>
     <color>G</color>
@@ -1379,7 +1379,7 @@ Delirium — At the beginning of each opponent's upkeep, if there are four or mo
     <text>For each token you control, put a token onto the battlefield that's a copy of that permanent.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Silverfur Partisan</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/686/200/283/635938227433375076.png">SOI</set>
     <color>G</color>
@@ -1392,7 +1392,7 @@ Delirium — At the beginning of each opponent's upkeep, if there are four or mo
 Whenever a Wolf or Werewolf you control becomes the target of an instant or sorcery spell, put a 2/2 green Wolf creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Westvale Abbey</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/719/200/283/635939217818172069.png">SOI</set>
     <color>C</color>
@@ -1405,7 +1405,7 @@ Whenever a Wolf or Werewolf you control becomes the target of an instant or sorc
 	<related>Ormendahl, Profane Prince</related>
 </card>
 
-<card>
+<card rarity="R">
     <name>Always Watching</name>
     <set picURL="http://mythicspoiler.com/soi/cards/alwayswatching.jpg">SOI</set>
     <color>W</color>
@@ -1416,7 +1416,7 @@ Whenever a Wolf or Werewolf you control becomes the target of an instant or sorc
     <text>Non-token creatures you control gain +1/+1 and vigilance.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Fortified Village</name>
     <set picURL="http://mythicspoiler.com/soi/cards/fortifiedvillage.jpg">SOI</set>
     <color>C</color>
@@ -1427,7 +1427,7 @@ Whenever a Wolf or Werewolf you control becomes the target of an instant or sorc
 </text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Port Town</name>
     <set picURL="http://mythicspoiler.com/soi/cards/porttown.jpg">SOI</set>
     <color>C</color>
@@ -1438,7 +1438,7 @@ Whenever a Wolf or Werewolf you control becomes the target of an instant or sorc
 T: Add W or U to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Choked Estuary</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/783/200/283/635941393309628202.png">SOI</set>
     <color>C</color>
@@ -1450,7 +1450,7 @@ T: Add U or B to your mana pool.
 </text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Foreboding Ruins</name>
     <set picURL="http://mythicspoiler.com/soi/cards/forebodingruins.jpg">SOI</set>
     <color>C</color>
@@ -1461,7 +1461,7 @@ T: Add U or B to your mana pool.
 T: Add B or R to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Game Trail</name>
     <set picURL="http://mythicspoiler.com/soi/cards/gametrail.jpg">SOI</set>
     <color>C</color>
@@ -1472,7 +1472,7 @@ T: Add B or R to your mana pool.</text>
 T: Add R or G to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Sin Prodder</name>
     <set picURL="http://mythicspoiler.com/soi/cards/sinprodder.jpg">SOI</set>
     <color>R</color>
@@ -1485,7 +1485,7 @@ T: Add R or G to your mana pool.</text>
 At the beginning of your upkeep, reveal the top card of your library. Any opponent may have you put that card into your graveyard. If a player does, Sin Prodder deals damage to that player equal to that card's converted mana cost. Otherwise, put that card into your hand.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Tireless Tracker</name>
     <set picURL="http://mythicspoiler.com/soi/cards/tirelesstracker.jpg">SOI</set>
     <color>G</color>
@@ -1498,7 +1498,7 @@ At the beginning of your upkeep, reveal the top card of your library. Any oppone
 Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Avacyn's Judgment</name>
     <set picURL="http://mythicspoiler.com/soi/cards/avacynsjudgment.jpg">SOI</set>
     <color>R</color>
@@ -1510,7 +1510,7 @@ Whenever you sacrifice a Clue, put a +1/+1 counter on Tireless Tracker.</text>
 Avacyn's Judgment deals 2 damage divided as you choose among any number of target creatures and/or players. If Avacyn's Judgment's madness cost was paid, it deals X damage divided as you choose among those creatures and/or players instead.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Fevered Visions</name>
     <set picURL="http://mythicspoiler.com/soi/cards/feveredvisions.jpg">SOI</set>
     <color>RU</color>
@@ -1521,7 +1521,7 @@ Avacyn's Judgment deals 2 damage divided as you choose among any number of targe
     <text>At the beginning of each player's end step, that player draws a card. If the player is your opponent and has four or more cards in hand, Fevered Visions deals 2 damage to him or her.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Corrupted Tombstone</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/748/635940221455616718.jpeg">SOI</set>
     <color>C</color>
@@ -1533,7 +1533,7 @@ Avacyn's Judgment deals 2 damage divided as you choose among any number of targe
 T: Choose a card in your graveyard. Add one mana of that card's color to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Asylum Visitor</name>
     <set picURL="http://mythicspoiler.com/soi/cards/asylumvisitor.jpg">SOI</set>
     <color>B</color>
@@ -1546,7 +1546,7 @@ T: Choose a card in your graveyard. Add one mana of that card's color to your ma
 Madness 1B</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Burn from Within</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/764/635940724177724319.jpeg">SOI</set>
     <color>R</color>
@@ -1558,7 +1558,7 @@ Madness 1B</text>
 </text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Engulf the Shore</name>
     <set picURL="http://mythicspoiler.com/soi/cards/engulftheshore.jpg">SOI</set>
     <color>B</color>
@@ -1569,7 +1569,7 @@ Madness 1B</text>
     <text>Return to their owner's hands all creatures with toughness less than or equal to the number of Islands you control.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Ulvenwald Mysteries</name>
     <set picURL="http://mythicspoiler.com/soi/cards/ulvenwaldmysteries.jpg">SOI</set>
     <color>G</color>
@@ -1581,7 +1581,7 @@ Madness 1B</text>
 Whenever you sacrifice a Clue, put a 1/1 white Human Soldier creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Invocation of Saint Traft</name>
     <set picURL="http://mythicspoiler.com/soi/cards/invocationofsainttraft.jpg">SOI</set>
     <color>WU</color>
@@ -1593,7 +1593,7 @@ Whenever you sacrifice a Clue, put a 1/1 white Human Soldier creature token onto
 Enchanted creature has "Whenever this creature attacks, put a 4/4 white Angel creature token onto the battlefield tapped and attacking. Exile that token at end of combat.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Nahiri's Machinations</name>
     <set picURL="http://mythicspoiler.com/soi/cards/nahirismachinations.jpg">SOI</set>
     <color>W</color>
@@ -1606,7 +1606,7 @@ Enchanted creature has "Whenever this creature attacks, put a 4/4 white Angel cr
 1R: Nahiri's Machinations deals 1 damage to target blocking creature.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Triskaidekaphobia</name>
     <set picURL="http://mythicspoiler.com/soi/cards/triskaidekaphobia.jpg">SOI</set>
     <color>B</color>
@@ -1619,7 +1619,7 @@ Enchanted creature has "Whenever this creature attacks, put a 4/4 white Angel cr
 * Each player with exactly 13 life loses the game, then each player loses 1 life.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Hanweir Militia Captain</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/842/635942257423161413.png">SOI</set>
     <color>W</color>
@@ -1644,7 +1644,7 @@ Enchanted creature has "Whenever this creature attacks, put a 4/4 white Angel cr
 At the beginning of your end step, put a 1/1 white and black Human Cleric creature token onto the battlefield.</text>
 </flipcard>
 
-<card>
+<card rarity="M">
     <name>Goldnight Castigator</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/851/200/283/635942368460926519.png">SOI</set>
     <color>R</color>
@@ -1658,7 +1658,7 @@ If a source would deal damage to you, it deals double that damage to your instea
 If a source would deal damage to Goldnight Castigator, it deals double that damage to Goldnight Castigator instead.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Angelic Purge</name>
     <set picURL="http://mythicspoiler.com/soi/cards/angelicpurge.jpg">SOI</set>
     <color>W</color>
@@ -1670,7 +1670,7 @@ If a source would deal damage to Goldnight Castigator, it deals double that dama
 Exile target artifact, creature, or enchantment.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Howlpack Resurgence</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/865/200/283/635942598658264007.png">SOI</set>
     <color>G</color>
@@ -1682,7 +1682,7 @@ Exile target artifact, creature, or enchantment.</text>
 Each creature you control that's a Wolf or a Werewolf gets +1/+1 and has trample.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Invasive Surgery</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/25/200/283/635911699218528846.jpeg">SOI</set>
     <color>U</color>
@@ -1694,7 +1694,7 @@ Each creature you control that's a Wolf or a Werewolf gets +1/+1 and has trample
 Delirium — If there are four or more card types amongst cards in your graveyard, search the graveyard, hand and library of that spell's owner for cards with the same name as that spell, exile those cards, then that player shuffles his or her library.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Indulgent Aristocrat</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/122/806/200/283/635941801934992432.png">SOI</set>
     <color>B</color>
@@ -1708,7 +1708,7 @@ Delirium — If there are four or more card types amongst cards in your graveyar
 2, Sacrifice a creature: Put a +1/+1 counter on each Vampire you control.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Forgotten Creation</name>
     <set picURL="http://mythicspoiler.com/soi/cards/forgottencreation.jpg">SOI</set>
     <color>U</color>
@@ -1721,7 +1721,7 @@ Delirium — If there are four or more card types amongst cards in your graveyar
 At the beginning of your upkeep, you may discard your hand. If you do, draw that many cards.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>The Gitrog Monster</name>
     <set picURL="http://mythicspoiler.com/soi/cards/thegitrogmonster.jpg">SOI</set>
     <color>BG</color>
@@ -1739,7 +1739,7 @@ You may play an additional land on each of your turns.
 Whenever one or more land cards are put into your graveyard from anywhere, draw a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vessel of Ephemera</name>
     <set picURL="http://mythicspoiler.com/soi/cards/vesselofephemera.jpg">SOI</set>
     <color>W</color>
@@ -1750,7 +1750,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
     <text>2W, Sacrifice Vessel of Ephemera: Put two 1/1 white Spirit creature tokens with flying onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vessel of Paramnesia</name>
     <set picURL="http://mythicspoiler.com/soi/cards/vesselofparamnesia.jpg">SOI</set>
     <color>U</color>
@@ -1761,7 +1761,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
     <text>U, Sacrifice Vessel of Paramnesia: Target player puts the top three cards of his or her library into his or her graveyard. Draw a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vessel of Malignity</name>
     <set picURL="http://mythicspoiler.com/soi/cards/vesselofmalignity.jpg">SOI</set>
     <color>B</color>
@@ -1772,7 +1772,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
     <text>1B, Sacrifice Vessel of Malignity: Target opponent exiles two cards from his of her hand. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vessel of Nascency</name>
     <set picURL="http://mythicspoiler.com/soi/cards/vesselofnascency.jpg">SOI</set>
     <color>G</color>
@@ -1783,7 +1783,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
     <text>1G, Sacrifice Vessel of Nascency: Reveal the top four cards of your library. You may put an artifact, creature, enchantment, land, or planeswalker card from among them into your hand. Put the rest into your graveyard.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Prized Amalgam</name>
     <set picURL="http://mythicspoiler.com/soi/cards/prizedamalgam.jpg">SOI</set>
     <color>UB</color>
@@ -1795,7 +1795,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
     <text>Whenever a creature enters the battlefield, if it entered from your graveyard or you cast it from your graveyard, return Prized Amalgam from your graveyard to the battlefield tapped at the beginning of the next end step.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Scourge Wolf</name>
     <set picURL="http://mythicspoiler.com/soi/cards/scourgewolf1.jpg">SOI</set>
     <color>R</color>
@@ -1808,7 +1808,7 @@ Whenever one or more land cards are put into your graveyard from anywhere, draw 
 Delirium - Scourge Wolf has double strike as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Altered Ego</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/898/635943381011742948.jpeg">SOI</set>
     <color>GU</color>
@@ -1822,7 +1822,7 @@ Delirium - Scourge Wolf has double strike as long as there are four or more card
 You may have Altered Ego enter the battlefield as a copy of any creature on the battlefield, except it enters with X additional +1+1 counters on it.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Survive the Night</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/902/635943435067125981.png">SOI</set>
     <color>W</color>
@@ -1835,7 +1835,7 @@ You may have Altered Ego enter the battlefield as a copy of any creature on the 
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Humble the Brute</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/131/635945021025805927.png">SOI</set>
     <color>W</color>
@@ -1849,7 +1849,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, 
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Stitchwing Skaab</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/905/635943498752523433.png">SOI</set>
     <color>U</color>
@@ -1861,7 +1861,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "2, 
     <text>{1}{U}, Discard two cards: Return Stitchwing Skaab from your graveyard to the battlefield tapped.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Uninvited Geist</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/910/635943526688633968.jpeg">SOI</set>
     <color>U</color>
@@ -1888,7 +1888,7 @@ When Uninvited Geist deals combat damage to a player, transform it.</text>
     <text>Unimpeded Tresspasser can't be blocked.</text>
 </flipcard>
 
-<card>
+<card rarity="M">
     <name>Seasons Past</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/962/635944210111795729.png">SOI</set>
     <color>G</color>
@@ -1899,7 +1899,7 @@ When Uninvited Geist deals combat damage to a player, transform it.</text>
     <text>Return any number of cards with different converted mana costs from your graveyard to your hand. Put Seasons Past on the bottom of its owner's library.</text>
 </card>
 
-<card>
+<card rarity="M">
     <name>Ulvenwald Hydra</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/951/635944095175189119.png">SOI</set>
     <color>G</color>
@@ -1914,7 +1914,7 @@ Ulvenwald Hydra's power and toughness are each equal to the number of lands you 
 When Ulvenwald Hydra enters the battlefield, you may search your library for a land card, put it onto the battlefield tapped, then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Creeping Dread</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/952/635944099493825924.png">SOI</set>
     <color>B</color>
@@ -1925,7 +1925,7 @@ When Ulvenwald Hydra enters the battlefield, you may search your library for a l
     <text>At the beginning of your upkeep, each player discards a card. Each opponent who discarded a card that shares a card type with the card you discarded loses 3 life. (Players reveal the discarded cards simultaneously.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Pyre Hound</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/33/635944968832035946.png">SOI</set>
     <color>R</color>
@@ -1939,7 +1939,7 @@ When Ulvenwald Hydra enters the battlefield, you may search your library for a l
 Whenever you cast an instant or sorcery spell, put a +1/+1 counter on Pyre Hound.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Aim High</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/84/635944996691268323.png">SOI</set>
     <color>G</color>
@@ -1950,7 +1950,7 @@ Whenever you cast an instant or sorcery spell, put a +1/+1 counter on Pyre Hound
     <text>Untap target creature. It gets +2+2 and gains reach until end of turn. (It can block creatures with flying.)</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>From Under the Floorboards</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/953/635944100124001810.png">SOI</set>
     <color>B</color>
@@ -1965,7 +1965,7 @@ Put three 2/2 black Zombie creature tokens onto the battlefield tapped and you g
 If From Under the Floorboards's madness cost was paid, instead put X of those tokens onto the battlefield tapped and you gain X life. </text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Ever After</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/966/635944254113366156.png">SOI</set>
     <color>B</color>
@@ -1976,7 +1976,7 @@ If From Under the Floorboards's madness cost was paid, instead put X of those to
     <text>Return up to two target creatures from your graveyard to the battlefield. Each of those creatures is a black Zombie in addition to its other colors and types. Put Ever After on the bottom of it's owner's library.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Hope Against Hope</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/967/635944259976338830.jpeg">SOI</set>
     <color>W</color>
@@ -1992,7 +1992,7 @@ Enchanted creature gets +1+1 for each creature you control.
 As long as enchanted creature is a Human, it has first strike.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Mad Prophet</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/969/635944286479021039.jpeg">SOI</set>
     <color>R</color>
@@ -2006,7 +2006,7 @@ As long as enchanted creature is a Human, it has first strike.</text>
 {t}, Discard a card: Draw a card.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Lambholt Pacifist</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/986/635944448735371450.jpeg">SOI</set>
     <color>G</color>
@@ -2033,7 +2033,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Lam
     <text>At the beginning of each upkeep, if a player cast two or more spells last turn, transform Lambholt Butcher.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Thornhide Wolves</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/118/635945010457751009.png">SOI</set>
     <color>G</color>
@@ -2044,7 +2044,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Lam
     <tablerow>2</tablerow>
 </card>
 
-<card>
+<card rarity="U">
     <name>Gloomwidow</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/99/635945002938683263.png">SOI</set>
     <color>G</color>
@@ -2058,7 +2058,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Lam
 Gloomwidow can block only creatures with flying.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Rottenheart Ghoul</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/138/635945023412968025.png">SOI</set>
     <color>B</color>
@@ -2070,7 +2070,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>When Rottenheart Ghoul dies, target player discards a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Rabid Bite</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/104/635945004394754777.png">SOI</set>
     <color>G</color>
@@ -2081,7 +2081,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>Target creature you control deals damage equal to its power to target creature you don't control.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Devilthorn Fox</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/128/635945020228270471.png">SOI</set>
     <color>W</color>
@@ -2092,7 +2092,7 @@ Gloomwidow can block only creatures with flying.</text>
     <tablerow>2</tablerow>
 </card>
 
-<card>
+<card rarity="C">
     <name>Inspiring Captain</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/132/635945021190887146.png">SOI</set>
     <color>W</color>
@@ -2104,7 +2104,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>When Inspiring Captain enters the battlefield, creatures you control get +1/+1 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Ethereal Guidance</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/130/635945020904449481.png">SOI</set>
     <color>W</color>
@@ -2115,7 +2115,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>Creatures you control get +2/+1 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Hulking Devil</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/21/635944963016170988.png">SOI</set>
     <color>R</color>
@@ -2126,7 +2126,7 @@ Gloomwidow can block only creatures with flying.</text>
     <tablerow>2</tablerow>
 </card>
 
-<card>
+<card rarity="C">
     <name>Vampire Noble</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/140/635945023659980037.png">SOI</set>
     <color>B</color>
@@ -2137,7 +2137,7 @@ Gloomwidow can block only creatures with flying.</text>
     <tablerow>2</tablerow>
 </card>
 
-<card>
+<card rarity="C">
     <name>Catalog</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/14/635944959438346142.png">SOI</set>
     <color>U</color>
@@ -2148,7 +2148,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>Draw two cards, then discard a card.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Silverstrike</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/134/635945022356620314.png">SOI</set>
     <color>W</color>
@@ -2159,7 +2159,7 @@ Gloomwidow can block only creatures with flying.</text>
     <text>Destroy target attacking creature. You gain 3 life. </text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Sleep Paralysis</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/136/635945022587589840.png">SOI</set>
     <color>U</color>
@@ -2174,7 +2174,7 @@ When Sleep Paralysis enters the battlefield, tap enchanted creature.
 Enchanted creature doesn't untap during its controller's untap step.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Convicted Killer</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/2/635944943221890127.jpeg">SOI</set>
     <color>R</color>
@@ -2199,7 +2199,7 @@ Enchanted creature doesn't untap during its controller's untap step.</text>
     <text>At the beginning of each upkeep, if a player casts two or more spells last turn, transform Branded Howler</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Bloodmad Vampire</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/5/635944954986668981.png">SOI</set>
     <color>R</color>
@@ -2213,7 +2213,7 @@ Enchanted creature doesn't untap during its controller's untap step.</text>
 Madness {1}{R} (If you discard this card, discard it into exile. When you do, you may cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Accursed Witch</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/8/635944955894290844.png">SOI</set>
     <color>B</color>
@@ -2243,7 +2243,7 @@ Spells you cast that target enchanted player cost {1} less to cast.
 At the beginning of enchanted player's upkeep, that player loses one life and you gain one life.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Dissension in the Ranks</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/10/635944958003507592.png">SOI</set>
     <color>R</color>
@@ -2254,7 +2254,7 @@ At the beginning of enchanted player's upkeep, that player loses one life and yo
     <text>Target blocking creature fights another target blocking creature.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Broken Concentration</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/12/200/283/635944958918698478.png">SOI</set>
     <color>U</color>
@@ -2267,7 +2267,7 @@ At the beginning of enchanted player's upkeep, that player loses one life and yo
 Madness {3}{U} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Dual Shot</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/13/635944959384098726.png">SOI</set>
     <color>R</color>
@@ -2278,7 +2278,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>Dual Shot deals 1 damage to each of up to two target creatures.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Geistblast</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/15/635944960476711651.png">SOI</set>
     <color>R</color>
@@ -2291,7 +2291,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
 {2}{U}, Exile Geistblast from your graveyard: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Deny Existence</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/16/635944960517882574.png">SOI</set>
     <color>U</color>
@@ -2302,7 +2302,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>Counter target creature spell. If it's countered this way, exile it instead of putting it into its owner's graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Kindly Stranger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/17/635944961506367451.png">SOI</set>
     <color>B</color>
@@ -2327,7 +2327,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>When this creature transforms into Demon-Possessed Witch, you may destroy target creature.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Drownyard Explorers</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/18/635944961998949943.png">SOI</set>
     <color>U</color>
@@ -2339,7 +2339,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>When Drownyard Explorers enters the battlefield, investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Howlpack Wolf</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/19/635944962342497938.png">SOI</set>
     <color>R</color>
@@ -2351,7 +2351,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>Howlpack Wolf can't block unless you control another Wolf or Werewolf.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Drunau Corpse Trawler</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/23/635944963691740014.png">SOI</set>
     <color>U</color>
@@ -2365,7 +2365,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
 {2}{B}: Target Zombie gains deathtouch until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Inner Struggle</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/24/635944964773696880.png">SOI</set>
     <color>R</color>
@@ -2376,7 +2376,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
     <text>Target creature deals damage to itself equal to its power.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Erdwal Illuminator</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/25/635944964952565449.png">SOI</set>
     <color>U</color>
@@ -2390,7 +2390,7 @@ Madness {3}{U} (If you discard this card, discard it into exile. When you do, ca
 Whenever you investigate for the first time each turn, investigate an additional time.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Alms of the Vein</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/26/200/283/635944965313277370.png">SOI</set>
     <color>B</color>
@@ -2403,7 +2403,7 @@ Whenever you investigate for the first time each turn, investigate an additional
 Madness {B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Essence Flux</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/27/635944966487250186.png">SOI</set>
     <color>U</color>
@@ -2414,7 +2414,7 @@ Madness {B} (If you discard this card, discard it into exile. When you do, cast 
     <text>Exile target creature you control, then return it to the battlefield under its owner's control. If it's a spirit, put a +1/+1 counter on it.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Insolent Neonate</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/28/635944966575749282.png">SOI</set>
     <color>R</color>
@@ -2428,7 +2428,7 @@ Madness {B} (If you discard this card, discard it into exile. When you do, cast 
 Discard a card, Sacrifice Insolent Neonate: Draw a card.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Behind the Scenes</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/30/635944967241128192.png">SOI</set>
     <color>B</color>
@@ -2443,7 +2443,7 @@ Discard a card, Sacrifice Insolent Neonate: Draw a card.</text>
 {4}{W}: Creatures you control get +1/+1 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Fleeting Memories</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/31/635944967962264102.png">SOI</set>
     <color>U</color>
@@ -2456,7 +2456,7 @@ Discard a card, Sacrifice Insolent Neonate: Draw a card.</text>
 Whenever you sacrifice a Clue, target player puts the top three cards of his or her library into his or her graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Malevolent Whispers</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/32/635944968039978220.png">SOI</set>
     <color>R</color>
@@ -2469,7 +2469,7 @@ Whenever you sacrifice a Clue, target player puts the top three cards of his or 
 Madness {3}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Ghostly Wings</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/34/200/283/635944968977543413.png">SOI</set>
     <color>U</color>
@@ -2484,7 +2484,7 @@ Enchanted creature gets +1/+1 and has flying.
 Discard a card: Return enchanted creature to its owner's hand.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Biting Rain</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/35/635944969038690083.png">SOI</set>
     <color>B</color>
@@ -2497,7 +2497,7 @@ Discard a card: Return enchanted creature to its owner's hand.</text>
 Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Reduce to Ashes</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/36/635944969838137461.png">SOI</set>
     <color>R</color>
@@ -2508,7 +2508,7 @@ Madness {2}{B} (If you discard this card, discard it into exile. When you do, ca
     <text>Reduce to Ashes deals 5 damage to target creature. If that creature would die this turn, exile it instead.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Gone Missing</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/37/635944970367155665.png">SOI</set>
     <color>U</color>
@@ -2521,7 +2521,7 @@ Madness {2}{B} (If you discard this card, discard it into exile. When you do, ca
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Rush of Adrenaline</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/38/635944970722532775.png">SOI</set>
     <color>R</color>
@@ -2532,7 +2532,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}
     <text>Target creature gets +2/+1 and gains trample until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Ghoulcaller's Accomplice</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/39/635944971547697960.png">SOI</set>
     <color>B</color>
@@ -2544,7 +2544,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}
     <text>{3}{B}, Exile Ghoulcaller's Accomplice from your graveyard: Put a 2/2 black Zombie creature token onto the battlefield. Activate this ability only anytime you could cast a sorcery.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Nagging Thoughts</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/41/635944972090142996.png">SOI</set>
     <color>U</color>
@@ -2557,7 +2557,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}
 Madness {1}{U} (If you discard this card, discard it into exile. When you do, cast it or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Senseless Rage</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/43/635944972974804560.png">SOI</set>
     <color>R</color>
@@ -2572,7 +2572,7 @@ Enchanted creature gets +2/+2.
 Madness {1}{R} (If you discard this card, discard it into exile. When you do, cast this card for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Press for Answers</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/45/635944974284295559.png">SOI</set>
     <color>U</color>
@@ -2585,7 +2585,7 @@ Madness {1}{R} (If you discard this card, discard it into exile. When you do, ca
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Ghoulsteed</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/46/200/283/635944974378058076.png">SOI</set>
     <color>B</color>
@@ -2597,7 +2597,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}
     <text>{2}{B}, Discard two cards: Return Ghoulsteed from your graveyard to the battlefield tapped.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Spiteful Motives</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/47/635944974490260393.png">SOI</set>
     <color>R</color>
@@ -2613,7 +2613,7 @@ Enchant creature
 Enchanted creature gets +3/+0 and has first strike.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Reckless Scholar</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/48/635944975515424915.png">SOI</set>
     <color>U</color>
@@ -2625,7 +2625,7 @@ Enchanted creature gets +3/+0 and has first strike.</text>
     <text>:{T}, Target player draws a card, then discards a card.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Stensia Masquerade</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/49/635944976085318060.png">SOI</set>
     <color>R</color>
@@ -2640,7 +2640,7 @@ Whenever a Vampire you control deals combat damage to a player, put a +1/+1 coun
 Madness {2}{R} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Gisa's Bidding</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/50/635944976144049690.png">SOI</set>
     <color>B</color>
@@ -2653,7 +2653,7 @@ Madness {2}{R} (If you discard this card, discard it into exile. When you do, ca
 Madness {2}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Seagraf Skaab</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/51/635944976765807789.png">SOI</set>
     <color>U</color>
@@ -2664,7 +2664,7 @@ Madness {2}{B} (If you discard this card, discard it into exile. When you do, ca
     <tablerow>2</tablerow>
 </card>
 
-<card>
+<card rarity="C">
     <name>Silburlind Snapper</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/52/635944977945373039.png">SOI</set>
     <color>U</color>
@@ -2676,7 +2676,7 @@ Madness {2}{B} (If you discard this card, discard it into exile. When you do, ca
     <text>Silburlind Snapper can't attack unless you've cast a noncreature spell this turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Tormenting Voice</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/53/635944978154931067.png">SOI</set>
     <color>R</color>
@@ -2689,7 +2689,7 @@ Madness {2}{B} (If you discard this card, discard it into exile. When you do, ca
 Draw two cards.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Silent Observer</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/54/635944979133684643.png">SOI</set>
     <color>U</color>
@@ -2701,7 +2701,7 @@ Draw two cards.</text>
     <text>Flying</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Ulrich's Kindred</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/55/635944979222881163.png">SOI</set>
     <color>R</color>
@@ -2715,7 +2715,7 @@ Draw two cards.</text>
 {3}{G}: Target attacking Wolf or Werewolf gains indestructible until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Grotesque Mutation</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/56/635944979716041264.png">SOI</set>
     <color>B</color>
@@ -2726,7 +2726,7 @@ Draw two cards.</text>
     <text>Target creature gets +3/+1 and lifelink until end of turn. (Damage dealt by this creature also causes its contoller to gain that much life.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Uncaged Fury</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/57/635944980154651452.png">SOI</set>
     <color>R</color>
@@ -2737,7 +2737,7 @@ Draw two cards.</text>
     <text>Target creature gets +1/+1 and gains double strike until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Bound by Moonsilver</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/62/635944983019415981.png">SOI</set>
     <color>W</color>
@@ -2752,7 +2752,7 @@ Enchanted creature can't attack, block, or transform.
 Sacrifice another permanent: Attach Bound by Moonsilver to target creature. Activate this ability only any time you could cast a sorcery and only once each turn.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Geier Reach Bandit</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/63/635944984551165550.png">SOI</set>
     <color>R</color>
@@ -2781,7 +2781,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Gei
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Vildin-Pack Alpha.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Cathar's Companion</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/67/635944985527305384.png">SOI</set>
     <color>W</color>
@@ -2793,7 +2793,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
     <text>Whenever you cast a noncreature spell, Cathar's Companion gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stormrider Spirit</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/137/635945022692300115.png">SOI</set>
     <color>U</color>
@@ -2807,7 +2807,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 Flying</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Apothecary Geist</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/64/635944985192132986.png">SOI</set>
     <color>W</color>
@@ -2821,7 +2821,7 @@ Flying</text>
 When Apothecary Geist enters the battlefield, if you control another Spirit, gain 3 life.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Lilianna's Indgnation</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/59/200/283/635944981934652609.png">SOI</set>
     <color>B</color>
@@ -2833,7 +2833,7 @@ When Apothecary Geist enters the battlefield, if you control another Spirit, gai
     <text>Put the top X cards of your library into your graveyard. Target Player loses 2 life for each creature card put into the graveyard this way.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Gatstaf Arsonists</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/60/635944982008469342.png">SOI</set>
     <color>R</color>
@@ -2860,8 +2860,8 @@ When Apothecary Geist enters the battlefield, if you control another Spirit, gai
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Gatstaf Ravagers.</text>
 </flipcard>
 
-<card>
-    <name>Morkut Necropod</name>
+<card rarity="U">
+    <name>Morkrut Necropod</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/65/200/283/635944985321738182.png">SOI</set>
     <color>B</color>
     <manacost>5B</manacost>
@@ -2871,10 +2871,10 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
     <tablerow>2</tablerow>
     <text>Menace (This creature can't be blocked except by two or more creatures.)
 
-Whenever Morkut Necropod attacks or blocks, sacrifice another creature or land.</text>
+Whenever Morkrut Necropod attacks or blocks, sacrifice another creature or land.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Chaplain's Blessing</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/68/635944986490362792.png">SOI</set>
     <color>W</color>
@@ -2885,7 +2885,7 @@ Whenever Morkut Necropod attacks or blocks, sacrifice another creature or land.<
     <text>You gain 5 life.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Kessig Forgemaster</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/69/635944987638836270.png">SOI</set>
     <color>R</color>
@@ -2914,7 +2914,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Kes
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Flameheart Werewolf.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Dauntless Cathar</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/70/635944987890794507.png">SOI</set>
     <color>W</color>
@@ -2926,7 +2926,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
     <text>{1}{W}, Exile Dauntless Cathar from your graveyard: Put a 1/1 white Spirit creature token with flying onto the battlefield. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Murderous Compulsion</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/71/200/283/635944987906890196.png">SOI</set>
     <color>B</color>
@@ -2939,7 +2939,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Emissary of the Sleepless</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/73/635944989168370205.png">SOI</set>
     <color>W</color>
@@ -2953,7 +2953,7 @@ Madness {1}{B} (If you discard this card, discard it into exile. When you do, ca
 When Emissary of the Sleepless enters the battlefield, if a creature died this turn, put a 1/1 white Spirit creature token with flying onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Inquisitor's Ox</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/77/635944991825405627.png">SOI</set>
     <color>W</color>
@@ -2965,7 +2965,7 @@ When Emissary of the Sleepless enters the battlefield, if a creature died this t
     <text>Delirium - Inquisitor's Ox gets +1/+0 and has vigilance as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Pale Rider of Trostad</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/78/635944992197720196.png">SOI</set>
     <color>B</color>
@@ -2979,7 +2979,7 @@ When Emissary of the Sleepless enters the battlefield, if a creature died this t
 When Pale Rider of Trostad enters the battlefield, discard a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Militant Inquisitor</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/79/635944993083210778.png">SOI</set>
     <color>W</color>
@@ -2991,7 +2991,7 @@ When Pale Rider of Trostad enters the battlefield, discard a card.</text>
     <text>Militant Inquisitor gets +1/+0 for each equipment you control.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Rancid Rats</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/80/635944994326317688.png">SOI</set>
     <color>B</color>
@@ -3005,7 +3005,7 @@ When Pale Rider of Trostad enters the battlefield, discard a card.</text>
 Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Moorland Drifter</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/81/635944994779318311.png">SOI</set>
     <color>W</color>
@@ -3017,7 +3017,7 @@ Deathtouch (Any amount of damage this deals to a creature is enough to destroy i
     <text>Delirium - Moorland Drifter has flying as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Skin Invasion</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/74/635944990182463538.png">SOI</set>
     <color>R</color>
@@ -3045,7 +3045,7 @@ When enchanted creature dies, return Skin Invasion to the battlefield transforme
     <text></text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Gryff's Boon</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/75/635944990487514715.png">SOI</set>
     <color>W</color>
@@ -3060,7 +3060,7 @@ Enchanted creature gets +1/+0 and has flying.
 {3}{W}: Return Gryff's Boon from your graveyard to the battlefield attached to target creature. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Sanitarium Skeleton</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/82/635944995683149756.png">SOI</set>
     <color>B</color>
@@ -3072,7 +3072,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>{2}{B}: Return Sanitarium Skeleton from your graveyard to your hand.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Nearheath Chaplain</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/83/635944995991474956.png">SOI</set>
     <color>W</color>
@@ -3086,7 +3086,7 @@ Enchanted creature gets +1/+0 and has flying.
 {2}{W}, Exile Nearheath Chaplain from your graveyard: Put two 1/1 white Spirit creature tokens with flying onto the battlefield. Activate this ability only any time you could cast a sorcery.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Not Forgotten</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/85/635944996916006240.png">SOI</set>
     <color>W</color>
@@ -3097,7 +3097,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>Put target card in a graveyard on the top or bottom of its owner's library. Put a 1/1 white Spirit creature token with flying onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Byway Courier</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/86/635944997414614290.png">SOI</set>
     <color>G</color>
@@ -3109,7 +3109,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>When Byway courier dies, investigate.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Confront the Unknown</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/87/635944997961630998.png">SOI</set>
     <color>G</color>
@@ -3120,7 +3120,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>Investigate, then target creature gets +1/+1 until end of turn for each Clue you control.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stallion of Ashmouth</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/88/635944998255614007.png">SOI</set>
     <color>B</color>
@@ -3132,7 +3132,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>Delirium — {1}{B}: Stallion of Ashmouth gets +1/+1 until end of turn. Activate this ability only if there are four or more card types among cards in your graveyard </text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Open the Armory</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/89/635944998441412590.png">SOI</set>
     <color>W</color>
@@ -3143,7 +3143,7 @@ Enchanted creature gets +1/+0 and has flying.
     <text>Search your library for an aura or equipment card, reveal it, and put it into your hand. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Crawling Sensation</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/90/635944998949170835.png">SOI</set>
     <color>G</color>
@@ -3156,7 +3156,7 @@ Enchanted creature gets +1/+0 and has flying.
 Whenever one or more land cards are put into your graveyard from anywhere for the first time each turn, put a 1/1 green Insect creature token on to the battlefield.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Cryptolith Rite</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/91/635944999870986845.png">SOI</set>
     <color>G</color>
@@ -3167,7 +3167,7 @@ Whenever one or more land cards are put into your graveyard from anywhere for th
     <text>Creature you control have "{T}: Add one mana of any color to your mana pool."</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Puncturing Light</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/92/635945000218222887.png">SOI</set>
     <color>W</color>
@@ -3178,7 +3178,7 @@ Whenever one or more land cards are put into your graveyard from anywhere for th
     <text>Destroy target attacking or blocking creature with power 3 or less.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Throttle</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/93/635945000283053621.png">SOI</set>
     <color>B</color>
@@ -3189,7 +3189,7 @@ Whenever one or more land cards are put into your graveyard from anywhere for th
     <text>Target Creature gets -4/-4 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Cult of the Waxing Moon</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/94/635945000735797739.png">SOI</set>
     <color>G</color>
@@ -3201,7 +3201,7 @@ Whenever one or more land cards are put into your graveyard from anywhere for th
     <text>Whenever a permanent you control transforms into a non-Human creature, put a 2/2 green Wolf creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Spectral Shepherd</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/95/635945001515795001.png">SOI</set>
     <color>W</color>
@@ -3215,7 +3215,7 @@ Whenever one or more land cards are put into your graveyard from anywhere for th
 {1}{U}: Return target Spirit you control to its owner's hand.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Equestrian Skill</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/96/635945001916900824.png">SOI</set>
     <color>G</color>
@@ -3230,7 +3230,7 @@ Enchanted Creature gets +3/+3/
 As long as enchanted creature is a Human, it has trample.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Fork in the Road</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/97/635945002530904638.png">SOI</set>
     <color>G</color>
@@ -3241,7 +3241,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>Search your library for up to two basic land cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stern Constable</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/98/635945002763995279.png">SOI</set>
     <color>W</color>
@@ -3253,7 +3253,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>{T}, Discard a card: Tap target creature.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Epitaph Golem</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/100/635945003262486731.png">SOI</set>
     <color>C</color>
@@ -3265,7 +3265,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>{2}: Put target card from your graveyard on the bottom of your library.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Graf Mole</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/101/635945003602265652.png">SOI</set>
     <color>G</color>
@@ -3277,7 +3277,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>Whenever you sacrifice a Clue, you gain 3 life.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Strength of Arms</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/103/635945004293585430.png">SOI</set>
     <color>W</color>
@@ -3288,7 +3288,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>Target creature gets +2/+2 until end of turn. If you control an equipment, put a 1/1 white Human creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Tenacity</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/105/635945005389180596.png">SOI</set>
     <color>W</color>
@@ -3299,7 +3299,7 @@ As long as enchanted creature is a Human, it has trample.</text>
     <text>Creatures you control get +1/+1 and gain lifelink until end of turn. Untap those creatures.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Haunted Cloak</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/106/635945005525135453.png">SOI</set>
     <color>C</color>
@@ -3312,7 +3312,7 @@ As long as enchanted creature is a Human, it has trample.</text>
 Equip {1}</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Intrepid Provisioner</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/107/635945005589342249.png">SOI</set>
     <color>G</color>
@@ -3326,7 +3326,7 @@ Equip {1}</text>
 When Intrepid Provisioner enters the battlefield, another target Human you control gets +2/+2 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Kessig Dire Swine</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/108/635945006354181079.png">SOI</set>
     <color>G</color>
@@ -3338,7 +3338,7 @@ When Intrepid Provisioner enters the battlefield, another target Human you contr
     <text>Delirium --- Kessig Dire Swine has trample as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Unruly Mob</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/109/635945006525195314.png">SOI</set>
     <color>W</color>
@@ -3350,7 +3350,7 @@ When Intrepid Provisioner enters the battlefield, another target Human you contr
     <text>Whenever another creature you control dies, put a +1/+1 counter on Unruly Mob.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Loam Dryad</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/110/635945007063172028.png">SOI</set>
     <color>G</color>
@@ -3362,7 +3362,7 @@ When Intrepid Provisioner enters the battlefield, another target Human you contr
     <text>{T}, Tap an untapped creature you control: Add one mana of any color to your mana pool</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Murderer's Axe</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/111/635945007411608882.png">SOI</set>
     <color>C</color>
@@ -3375,7 +3375,7 @@ When Intrepid Provisioner enters the battlefield, another target Human you contr
 Equip-- Discard a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Might Beyond Reason</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/112/635945007911176689.png">SOI</set>
     <color>G</color>
@@ -3388,7 +3388,7 @@ Equip-- Discard a card.</text>
 Delirium --- Put three +1/+1 counters on that creature instead if there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Moldgraf Scavenger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/113/635945008726766395.png">SOI</set>
     <color>G</color>
@@ -3400,7 +3400,7 @@ Delirium --- Put three +1/+1 counters on that creature instead if there are four
     <text>Delirium --- Moldfraf Scavenger gets +3/+0 as long as there are four or more card types among cards in your graveyard.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Runaway Carriage</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/114/635945009005097490.png">SOI</set>
     <color>C</color>
@@ -3412,7 +3412,7 @@ Delirium --- Put three +1/+1 counters on that creature instead if there are four
     <text>Trample</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Moonlight Hunt</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/115/635945009357968724.png">SOI</set>
     <color>G</color>
@@ -3423,7 +3423,7 @@ Delirium --- Put three +1/+1 counters on that creature instead if there are four
     <text>Choose target creature you don't control. Each creature you control that's a Wolf or a Werewolf deals damage equal to its power to that creature.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Skeleton Key</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/119/635945011577701652.png">SOI</set>
     <color>C</color>
@@ -3438,7 +3438,7 @@ Whenever equipped creature deals damage to a player, you may draw a card. If you
 Equip {2}</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Slayer's Plate</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/120/635945013535851451.png">SOI</set>
     <color>C</color>
@@ -3453,7 +3453,7 @@ Whenever Equipped creature dies if it was a Human, put a 1/1 white Spirit creatu
 Equip {3}</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Root Out</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/121/635945014443876608.png">SOI</set>
     <color>2G</color>
@@ -3466,7 +3466,7 @@ Equip {3}</text>
 Investigate.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Veteran Cathar</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/123/635945015638685750.png">SOI</set>
     <color>G</color>
@@ -3478,7 +3478,7 @@ Investigate.</text>
     <text>{3}{W}: Target Human gains double strike until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>True-Faith Censer</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/124/635945015757128298.png">SOI</set>
     <color>C</color>
@@ -3493,7 +3493,7 @@ As long as equipped creature is a Human it gets an addition +1/+0.
 Equip {2}</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Weirding Wood</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/125/635945016427539878.png">SOI</set>
     <color>G</color>
@@ -3508,7 +3508,7 @@ When Weirding Wood enters the battlefield, investigate.
 Enchanted land has "{T}: Add two mana of any one color to your mana pool."</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Wicker Witch</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/126/200/283/635945016923060543.png">SOI</set>
     <color>C</color>
@@ -3519,7 +3519,7 @@ Enchanted land has "{T}: Add two mana of any one color to your mana pool."</text
     <tablerow>0</tablerow>
 </card>
 
-<card>
+<card rarity="U">
     <name>Harvest Hand</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/129/635945020412137004.png">SOI</set>
     <color>C</color>
@@ -3548,7 +3548,7 @@ As long as equipped creature is a Human, it has menace. (It can't be blocked exc
 Equip {2}</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Wild-Field Scarecrow</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/127/635945018647469732.png">SOI</set>
     <color>C</color>
@@ -3562,7 +3562,7 @@ Equip {2}</text>
 {2}, Sacrifice Wild-Field Scarecrow: Search your library for up to two basic lands, reveal them and put them into your hand. Then shuffle your library.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Quilled Wolf</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/116/635945009848877760.png">SOI</set>
     <color>G</color>
@@ -3574,7 +3574,7 @@ Equip {2}</text>
     <text>{5}{G}: Quilled Wolf gets +4/+4 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stoic Builder</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/117/635945010198166780.png">SOI</set>
     <color>G</color>
@@ -3586,7 +3586,7 @@ Equip {2}</text>
     <text>When Stoic Builder enters the battlefield, you may return target land card from your graveyard to your hand.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Watcher in the Web</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/122/635945014958461337.png">SOI</set>
     <color>G</color>
@@ -3600,7 +3600,7 @@ Equip {2}</text>
 Watcher in the Web can block an additional seven creatures each combat.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Corrupted Grafstone</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/814/635941819807793280.jpeg">SOI</set>
     <color>C</color>
@@ -3613,7 +3613,7 @@ Watcher in the Web can block an additional seven creatures each combat.</text>
 {T}: Choose a color of a card in your graveyard. Add one mana of that color to your mana pool.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Explosive Apparatus</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/142/200/283/635945024999515095.png">SOI</set>
     <color>C</color>
@@ -3624,7 +3624,7 @@ Watcher in the Web can block an additional seven creatures each combat.</text>
     <text>{3}, {T}, Sacrifice Explosive Apparatus: Explosive Apparatus deals 2 damage to target creature or player.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Thraben Gargoyle</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/831/635941865786822806.png">SOI</set>
     <color>C</color>
@@ -3651,7 +3651,7 @@ Watcher in the Web can block an additional seven creatures each combat.</text>
     <text>Flying</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Drownyard Temple</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/672/635937999645960330.jpeg">SOI</set>
     <color>C</color>
@@ -3663,7 +3663,7 @@ Watcher in the Web can block an additional seven creatures each combat.</text>
 {3}: Return Drownyard Temple from your graveyard to the battlefield tapped.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Duskwatch Recruiter</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/987/635944464663784880.jpeg">SOI</set>
     <color>G</color>
@@ -3692,7 +3692,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Dus
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Krallenhorde Howler.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Hermit of the Natterknolls</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/148/635945158792234124.png">SOI</set>
     <color>G</color>
@@ -3721,7 +3721,7 @@ At the beginning of each upkeep, if no spells were cast last turn, transform Her
 At the beginning of each upkeep, if a player cast two or more spells last turn, transform Lone Wolf of the Natterknolls.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Solitary Hunter</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/150/635945160360431607.png">SOI</set>
     <color>G</color>
@@ -3746,7 +3746,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
     <text>At the beginning of each upkeep, if a player cast two or more spells last turn, transform One of the Pack.</text>
 </flipcard>
 
-<card>
+<card rarity="U">
     <name>Pack Guardian</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/102/635945003977122604.png">SOI</set>
     <color>G</color>
@@ -3760,7 +3760,7 @@ At the beginning of each upkeep, if a player cast two or more spells last turn, 
 When Pack Guardian enters the battlefield, you may discard a land card. If you do, put a 2/2 green wolf creature token onto the battlefield.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Hound of the Farbogs</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/139/635945023516171336.png">SOI</set>
     <color>B</color>
@@ -3772,7 +3772,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Delirium — Hound of the Farbogs has menace as long as there are four or more card types among cards in your graveyard. (A creature with menace can't be blocked except by two or more creatures.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Shamble Back</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/14/635911646005322310.jpeg">SOI</set>
     <color>B</color>
@@ -3783,7 +3783,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Exile target creature card from a graveyard. Put a 2/2 black Zombie creature token onto the battlefield. You gain 2 life.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Dance with Devils</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/6/635944955513387184.png">SOI</set>
     <color>R</color>
@@ -3794,7 +3794,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Put two 1/1 red Devil creature tokens onto the battlefield. They have "When this creature dies, it deals 1 damage to target creature or player."</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Devil's Playground</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/7/200/283/635944955872762216.png">SOI</set>
     <color>R</color>
@@ -3805,7 +3805,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Put four 1/1 red Devil creature tokens onto the battlefield. They have "When this creature dies, it deals 1 damage to target creature or player."</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Ember-Eye Wolf</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/9/200/283/635944956508216411.png">SOI</set>
     <color>R</color>
@@ -3819,7 +3819,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
 {1}{R}: Ember-Eye Wolf gets +2/+0 until end of turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Town Gossipmonger</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/144/635945155564936221.png">SOI</set>
     <color>W</color>
@@ -3846,7 +3846,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
 {2}: Incited Rabble gets +1/+0 until end of turn.</text>
 </flipcard>
 
-<card>
+<card rarity="C">
     <name>Magmatic Chasm</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/29/635944966895164066.png">SOI</set>
     <color>R</color>
@@ -3857,7 +3857,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Creatures without flying can't block this turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Sanguinary Mage</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/40/635944971670244302.png">SOI</set>
     <color>R</color>
@@ -3869,7 +3869,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Prowess</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Structural Distortion</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/44/635944973554181120.png">SOI</set>
     <color>R</color>
@@ -3880,7 +3880,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
     <text>Exile target artifact or land. Structural Distortion deals 2 damage to that permanent's controller.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Voldaren Duelist</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/58/635944980375398694.png">SOI</set>
     <color>R</color>
@@ -3894,7 +3894,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
 When Voldaren Duelist enters the battlefield, target creature can't block this turn.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Autumnal Gloom</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/146/635945157398230531.png">SOI</set>
     <color>G</color>
@@ -3920,7 +3920,7 @@ Delirium - At the beginning of your end step, if there are four or more card typ
     <text>Trample, hexproof</text>
 </flipcard>
 
-<card>
+<card rarity="R">
     <name>Inexorable Blob</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/955/635944110643045796.png">SOI</set>
     <color>G</color>
@@ -3932,7 +3932,7 @@ Delirium - At the beginning of your end step, if there are four or more card typ
     <text>Delirium — Whenever Inexorable Blob attacks, if there are four or more card types among cards in your graveyard, put a 3/3 green Ooze creature token onto the battlefield tapped and attacking.</text>
 </card>
 
-<card>
+<card rarity="R">
     <name>Confirm Suspicions</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/804/635941799729795198.png">SOI</set>
     <color>U</color>
@@ -3945,7 +3945,7 @@ Delirium - At the beginning of your end step, if there are four or more card typ
 Investigate three times. (To investigate, put a colorless Clue artifact token onto the battlefield with "{2}, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Furtive Homunculus</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/759/635940326496990573.jpeg">SOI</set>
     <color>U</color>
@@ -3957,7 +3957,7 @@ Investigate three times. (To investigate, put a colorless Clue artifact token on
     <text>Skulk (This creature can't be blocked by creatures with greater power.)</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Lamplighter of Selhoff</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/914/635943547283658957.png">SOI</set>
     <color>U</color>
@@ -3969,7 +3969,7 @@ Investigate three times. (To investigate, put a colorless Clue artifact token on
     <text>When Lamplighter of Selhoff enters the battlefield, if you control another Zombie, you may draw a card. If you do, discard a card.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Niblis of Dusk</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/42/635944972894320027.png">SOI</set>
     <color>U</color>
@@ -3983,7 +3983,7 @@ Investigate three times. (To investigate, put a colorless Clue artifact token on
 Prowess</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Stitched Mangler</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/913/635943547018984002.png">SOI</set>
     <color>U</color>
@@ -3997,7 +3997,7 @@ Prowess</text>
 When Stitched Mangler enters the battlefield, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Call the Bloodline</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/871/635942710640763872.png">SOI</set>
     <color>B</color>
@@ -4008,7 +4008,7 @@ When Stitched Mangler enters the battlefield, tap target creature an opponent co
     <text>{1}, Discard a card: Put a 1/1 black Vampire Knight creature token with lifelink onto the battlefield. Activate this ability only once each turn.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Expose Evil</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/927/635943640566442597.png">SOI</set>
     <color>W</color>
@@ -4021,7 +4021,7 @@ When Stitched Mangler enters the battlefield, tap target creature an opponent co
 Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}, Sacrifice this artifact: Draw a card.")</text>
 </card>
 
-<card>
+<card rarity="U">
     <name>Lightning Axe</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/22/635944963243724980.png">SOI</set>
     <color>R</color>
@@ -4034,7 +4034,7 @@ Investigate. (Put a colorless Clue artifact token onto the battlefield with "{2}
 Lightning Axe deals 5 damage to target creature.</text>
 </card>
 
-<card>
+<card rarity="C">
     <name>Dead Weight</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/918/635943607510929082.jpeg">SOI</set>
     <color>B</color>
