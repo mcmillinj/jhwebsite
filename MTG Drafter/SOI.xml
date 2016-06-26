@@ -1522,14 +1522,14 @@ Avacyn's Judgment deals 2 damage divided as you choose among any number of targe
 </card>
 
 <card rarity="C">
-    <name>Corrupted Tombstone</name>
+    <name>Corrupted Grafstone</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/122/748/635940221455616718.jpeg">SOI</set>
     <color>C</color>
     <manacost>2</manacost>
     <cmc>2</cmc>
     <type>Artifact</type> 
     <tablerow>0</tablerow>
-    <text>Corrupted Tombstone enters the battlefield tapped. 
+    <text>Corrupted Grafstone enters the battlefield tapped. 
 T: Choose a card in your graveyard. Add one mana of that card's color to your mana pool.</text>
 </card>
 
@@ -1721,7 +1721,7 @@ Delirium — If there are four or more card types amongst cards in your graveyar
 At the beginning of your upkeep, you may discard your hand. If you do, draw that many cards.</text>
 </card>
 
-<card rarity="C">
+<card rarity="M">
     <name>The Gitrog Monster</name>
     <set picURL="http://mythicspoiler.com/soi/cards/thegitrogmonster.jpg">SOI</set>
     <color>BG</color>
@@ -2822,7 +2822,7 @@ When Apothecary Geist enters the battlefield, if you control another Spirit, gai
 </card>
 
 <card rarity="U">
-    <name>Lilianna's Indgnation</name>
+    <name>Lilianna's Indignation</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/59/200/283/635944981934652609.png">SOI</set>
     <color>B</color>
     <manacost>XB</manacost>
@@ -3456,7 +3456,7 @@ Equip {3}</text>
 <card rarity="C">
     <name>Root Out</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/123/121/635945014443876608.png">SOI</set>
-    <color>2G</color>
+    <color>G</color>
     <manacost>2G</manacost>
     <cmc>3</cmc>
     <type>Sorcery</type> 
@@ -3795,7 +3795,7 @@ When Pack Guardian enters the battlefield, you may discard a land card. If you d
 </card>
 
 <card rarity="R">
-    <name>Devil's Playground</name>
+    <name>Devils' Playground</name>
     <set picURL="http://media-dominaria.cursecdn.com/avatars/thumbnails/123/7/200/283/635944955872762216.png">SOI</set>
     <color>R</color>
     <manacost>4RR</manacost>

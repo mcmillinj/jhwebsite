@@ -318,13 +318,14 @@ table.center {
 }
 
 #draft-grid {
-	margin-left:auto;
-	margin-right:auto;
+	/*margin-left:auto;
+	margin-right:auto;*/
 	width: 600px;
 	height: 600px;
 	table-layout: fixed;
 	text-align: center;
 	border-collapse:collapse;
+	float: left;
 }
 
 .outer-grid {
@@ -352,3 +353,33 @@ table.center {
 	max-height: 200px;
 	max-width: 200px;
 }
+
+/*.pick-table, .pick-table tr, .pick-table tr td {
+	border: none;
+	border-collapse: collapse;
+}*/
+
+.pick-table {
+	width: 400px;
+	float: right;
+}
+
+.colourid-column {
+	visibility: hidden;
+}
+
+.pick-table .colourid-column td {
+	visibility: hidden;
+}
+
+/*.name-column {
+	width: 80%;
+}
+
+.manacost-column {
+	width: 20%;
+}
+
+.pick-table .manacost-column td {
+	text-align: right;
+}*/
